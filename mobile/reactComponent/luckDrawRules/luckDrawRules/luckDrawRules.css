@@ -1,0 +1,45 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+.content {
+  width: 100%;
+  position: relative;
+}
+.title {
+  width: 100%;
+  line-height: 2.2rem;
+  background-color: #f8c300;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+  position: relative;
+}
+.title a {
+  float: left;
+  padding:0rem 0.5rem;
+  margin-top: 0.5rem;
+  position: absolute;
+  left: 0rem;
+  top:0rem;
+}
+.title img {
+  width: 0.6rem;
+  float: left;
+}
+.rulesCon {
+  width: 100%;
+  padding:0rem 0.4rem;
+  color: #feffef;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.rulesCon p {
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 0.6rem;
+  color: #8c700c;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}

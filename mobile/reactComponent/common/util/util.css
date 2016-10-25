@@ -1,0 +1,18 @@
+.mContainer{
+  width: 100%;
+}
+.mRow{
+  width: 1000px;
+  margin: 0px auto;
+}
+.clearfix:after{
+  clear:both;
+  display:block;
+  visibility:hidden;
+  height:0;
+  line-height:0;
+  content:'';
+}
+.clearfix{
+  zoom:1;
+}

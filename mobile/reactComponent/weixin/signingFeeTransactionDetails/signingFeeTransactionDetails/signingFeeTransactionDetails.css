@@ -1,0 +1,54 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.pay {
+  width: 100%;
+  padding:0rem 0.5rem;
+}
+.section1 {
+  width: 100%;
+  text-align: center;
+  padding:1.25rem 3.5rem;
+}
+.section1 img {
+  width: 100%;
+}
+.section2 {
+  width: 100%;
+  background-color: #fbf9fa;
+  padding:0.5rem 0rem;
+}
+.cash {
+  width: 100%;
+  font-size: 0.6rem;
+}
+.cash2 {
+  width: 100%;
+  margin-top: 0.75rem;
+}
+.left {
+  width: 28%;
+  float: left;
+  text-align: right;
+}
+.right {
+  width: 72%;
+  float: left;
+  text-align: right;
+  padding-right: 0.75rem;
+}
+
+.erweima {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+.erweima img {
+  width: 60%;
+}
+.tishi {
+  text-align: left;
+  margin:0rem auto;
+  width: 52%;
+  font-size: 0.6rem;
+}

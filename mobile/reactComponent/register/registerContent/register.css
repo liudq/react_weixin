@@ -1,0 +1,99 @@
+.clear {
+    clear: both;
+}
+.lable {
+    float: left;
+}
+.phone {
+    float: left;
+}
+.block {
+    display: block;
+}
+.none {
+    display: none;
+}
+.myContent {
+    width: 100%;
+}
+.title {
+    width: 100%;
+    height: 2.2rem;
+    text-align: center;
+    line-height: 2.2rem;
+    font-size: 0.8rem;
+    color: #231816;
+    border-bottom: 1px solid #e5e5e5;
+}
+.backImg {
+    float: left;
+    height: 1.05rem;
+    margin-top: 0.55rem;
+    margin-left: 0.6rem;
+}
+.back {
+    float: left;
+}
+.content {
+    width: 100%;
+    padding: 0.8rem 1.35rem;
+}
+.phoneDiv {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+.phoneInput {
+    width: 100%;
+    border: 0px;
+    font-size: 0.6rem;
+    padding: 0.8rem 0px;
+    color: #999999;
+}
+.agreement {
+    width: 100%;
+    padding: 0.5rem 0px;
+    font-size: 0.6rem;
+    color: #888888;
+    height: 1.9rem;
+    line-height: 0.9rem;
+}
+.agreement a {
+    color: #444444;
+}
+.agreInput{
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 0.45rem;
+    display: inline-block;
+    float: left;
+    margin-right: 0.3rem;
+    border: 1px solid #e5e5e5;
+}
+.agreText{
+  float: left;
+}
+.agreementInput {
+  background-image: url("./duiGou.png");
+  background-repeat: no-repeat;
+  background-size: 0.8rem 0.8rem;
+}
+.next {
+  width: 100%;
+  height: 2.2rem;
+  border-radius: 0.2rem;
+  font-size: 0.7rem;
+  line-height: 2.2rem;
+  text-align: center;
+  background-color: #dd127b;
+  color: #e5e5e5;
+}
+.nextFalse {
+  width: 100%;
+  height: 2.2rem;
+  border-radius: 0.2rem;
+  font-size: 0.7rem;
+  line-height: 2.2rem;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #999;
+}

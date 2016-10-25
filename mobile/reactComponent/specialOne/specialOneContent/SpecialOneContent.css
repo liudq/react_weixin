@@ -1,0 +1,200 @@
+.clear {
+  clear: both;
+}
+.content {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  background-color: #f8c301;
+  text-align: center;
+  line-height: 2.2rem;
+  color: #fff;
+  font-size: 0.9rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+}
+.title2 {
+  height: 2.2rem;
+}
+.back {
+  color: #fff;
+  line-height: 2.2rem;
+  float: left;
+  position: absolute;
+  left: 0px;
+  padding-right: 0.5rem;
+}
+.back img {
+  width: 0.5rem;
+  margin-left: 0.5rem;
+}
+.share {
+  color: #fff;
+  line-height: 2.25rem;
+  float: right;
+}
+.share img {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+.content .bdsharebuttonbox {
+  float: right;
+  background-image: url("./spcial06.png");
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+.content .bdsharebuttonbox a {
+  display: block;
+  float: right;
+  height: 0.85rem;
+  width: 0.85rem;
+  background-image: url("./spcial06.png");
+}
+.bottomContent {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.section1 {
+  width: 100%;
+  background-color: #fff;
+}
+.section1 img {
+  width: 100%;
+}
+.sec1second {
+  width: 100%;
+  padding-left: 0.5rem;
+  background-color: #fff;
+  margin-top: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+.sec1second img {
+  width: 100%;
+  height: 4.85rem;
+}
+.sec1Left {
+  float: left;
+  width: 50%;
+  padding-right: 0.5rem;
+}
+.sec1Right {
+  float: right;
+  width: 50%;
+  padding-right: 0.5rem;
+}
+.section2 {
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  line-height: 1.7rem;
+  background-color: #fff;
+  font-size: 0.7rem;
+  position: fixed;
+  top: 2.2rem;
+  left: 0rem;
+}
+.singleSwiper {
+  width: 100%;
+  text-align: center;
+}
+.section2 .active {
+  background-color: #151307;
+  color: #f8c400;
+}
+.lastType {
+  width: 80%;
+  margin:0px auto;
+  background-color: #f20069;
+  line-height: 1.2rem;
+  margin-top: 0.25rem;
+  color: #fff;
+}
+.section3 {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  display: none;
+}
+.singleGoods {
+  width: 47%;
+  padding-right: 0.5rem;
+  float: left;
+  border:1px solid #dfdfdf;
+  padding:0.25rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.singleGoods img {
+  width: 50%;
+  height: 4.7rem;
+}
+.sec3Title {
+  width: 100%;
+  text-align: left;
+  font-size: 0.7rem;
+  color: #727272;
+  height: 1.5rem;
+  line-height: 0.85rem;
+  margin-top: 0.5rem;
+}
+.sec3Title i {
+  font-style: normal;
+  background-color: #e60000;
+  border-radius: 0.1rem;
+  padding:0.1rem 0.2rem;
+  color: #fff;
+  font-size: 0.5rem;
+}
+.sec3Button {
+  width: 100%;
+}
+.price {
+  color: #ffa400;
+  font-size: 0.5rem;
+  text-align: left;
+  float: left;
+  margin-top: 0.5rem;
+}
+.button {
+  color: #fff;
+  font-size: 0.7rem;
+  background-color: #ffc602;
+  float: right;
+  padding:0.3rem 0.25rem;
+  border-radius: 0.1rem;
+}
+.block {
+  display: block;
+}
+.page {
+  height: 0.5rem;
+  width: 100%;
+  line-height: 0.5rem;
+  text-align: center;
+}
+.page .swiperPagination {
+  position: relative;
+}
+.oldPrice {
+  color: #888888;
+  float: left;
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  text-decoration: line-through;
+}
+.section2bg {
+  height: 1.7rem;
+  width: 100%;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}

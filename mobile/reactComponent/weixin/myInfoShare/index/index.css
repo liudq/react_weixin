@@ -1,0 +1,119 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.head{
+	width: 100%;
+	height: 8rem;
+	background: #f8c300;
+	font-size: 0.6rem;
+	color: #211813;
+}
+.allEarnings{
+	height: 5.85rem;
+	padding-top: 1.7rem;
+	width: 100%;
+	text-align: center;
+}
+.allEarnings p:nth-of-type(2){
+	line-height: 1.2rem;
+}
+.head .earingsNo{
+	font-size: 1.45rem;
+	color: #231814;
+}
+.earingsCon{
+	width: 100%;
+	height: 1.84rem;
+}
+.earingsCon div{
+	font-size: 0.6rem;
+	float: left;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.earingsCon .earingsConL{
+	margin-right:-1px;
+	border-right: 1px solid #fbe89b; 
+}
+.earingsCon div p{
+	height: 0.92rem;
+}
+.infContent{
+	padding: 0.5rem 0rem;
+	width: 100%;
+	background: #f8f8f8;
+}
+.spread,.rebate{
+	width: 100%;
+	padding: 0 0.5rem;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	background: #ffffff;
+	font-size: 0.55rem;
+	color: #000000;
+}
+.rebate{
+	margin-top:0.5rem; 
+}
+.spreadList,.rebateList{
+	width: 100%;
+	padding: 0 0.5rem;
+	overflow: hidden;
+	line-height: 1.75rem;
+	background: #ffffff;
+	font-size: 0.55rem;
+	color: #010101;
+	display: none;
+}
+.show{
+	display: block;
+}
+
+.money{
+	width: 100%;
+	padding: 0 0.5rem;
+	margin-top: 0.5rem;
+	height: 1.75rem;
+	line-height: 1.75rem;
+	background: #ffffff;
+	font-size: 0.55rem;
+	color: #000000;
+}
+.moneyL{
+	float: left;
+}
+.moneyR{
+	float: right;
+}
+.list{
+	width: 100%;
+	padding: 0 0.5rem;
+	margin-top: 0.5rem;
+	overflow: hidden;
+	line-height: 1.75rem;
+	background: #ffffff;
+	font-size: 0.55rem;
+	color: #010101;
+}
+.listCon{
+	height: 1.75rem;
+	border-top: 1px dashed #ededed;
+}
+.listCon .moneyR{
+	color: #929292;
+}
+.spreadList .moneyL,.rebateList .moneyL{
+	color: #929292;
+}
+.list .listCon .moneyL{
+	color: #545454;
+}
+.moneyR img{
+	width: 1rem;
+	height: 1rem;
+}
+.spanL{
+	padding-left: 0.5rem;
+}
+.loading{}

@@ -1,0 +1,118 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+
+a{
+  text-decoration:none;
+}
+em{
+  font-style:normal;
+}
+body{
+  background:#ffffff;
+}
+.content {
+  width: 100%;
+}
+
+/* title开始 */
+.specialTitlet{
+  width: 100%;
+  height: 2.5rem;
+}
+.specialTitle {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1;
+  width: 100%;
+  height: 2.5rem;
+  line-height:2.5rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #fff;
+  background-color: #f8c300;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}
+.specialTitle img {
+  width: 0.6rem;
+}
+
+.backImgCss {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:0 0.5rem;
+}
+.backImgCss img {
+  width: 0.6rem;
+  height: 1.05rem;
+}
+
+
+/* 悬浮按钮开始 */
+.backImgA {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 0.5rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixUpCss {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixBackCss {
+  width: 2rem;
+  height: 2rem;
+}
+.block {
+  display: block;
+}
+
+/* 悬浮按钮结束 */
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+
+/*图片*/
+.bannerladj{
+  width: 100%;
+  position: relative;
+}
+.bannerladj img{
+  width: 100%;
+  height: 29.95rem;
+}
+.bannerladjds{
+  position: absolute;
+  top:6.2rem;
+  left:8.35rem;
+}
+.bannerladjdss{
+  color:#f8c301;
+  font-size:3.4rem;
+  font-weight:bold;
+}
+.bannerladjdssy{
+  color:#64968d;
+}

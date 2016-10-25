@@ -1,0 +1,231 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+a{
+  color: #000;
+}
+i,em{ font-style:normal;}
+b,strong{ 
+  font-weight:normal;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.container{
+  width: 100%;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.infBox{
+  position: fixed;
+  top:0;left:0;
+  width:100%;
+  height:2rem;
+  padding:0.4rem;
+  background: #f8c300;
+  border-bottom:1px solid #d77e00;  
+}
+.fixBox{
+  width:100%;
+  height:2rem;
+}
+.myInf{
+  width:1.6rem;
+  height:1.6rem;
+  background: url("./self.png") no-repeat;
+  background-size: 1.2rem 1.2rem;
+}
+.myCate{
+  width:1.6rem;
+  height:1.6rem;
+  background: url("./list.png") no-repeat;
+  background-size: 1.2rem 1.2rem;
+}
+.myTit{
+  position: absolute;
+  left:50%;
+  top:0.45rem;
+  margin-left:-1.1rem;
+  font-size:0.8rem;
+}
+.aboutMy{
+  position: absolute;
+  top:2rem;
+  left:0.4rem;
+  width:3.6rem;
+  height:3rem;
+  background: #000;
+  border-radius: 3px;  
+  opacity:0.6;
+}
+.aboutMy i{
+  position: absolute;
+  top:-0.22rem;
+  left:0.32rem;
+  width:0.5rem;
+  height:0.2rem;
+  background: url("./sj.png") no-repeat;
+}
+.myLIst{
+  position: absolute;
+  top:2rem;
+  left:0.4rem;
+  width:3.6rem;
+  height:3rem;
+  /*padding:0.25rem 0.2rem;*/
+}
+.myLIst a{
+  display: block;
+  width:100%;
+  height:50%;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size:0.65rem;
+  color:#fff;
+}
+.myOrder{
+  border-bottom: 1px solid #807f7a;
+}
+.imgPath{
+  width:100%;
+  height:9.375rem;
+}
+.imgPath img{
+  width:100%;
+  height:100%;
+}
+
+.myCar{
+  position: fixed;
+  bottom:4.2rem;left:0.5rem;
+  width:2.15rem;
+  height:2.15rem;
+  background: url("./myCar.png") no-repeat;
+  background-size: 2.15rem 2.15rem;
+}
+.myDownBox{
+  position: fixed;
+  bottom: 0;left:0;
+  width:100%;
+  height:2.45rem;
+}
+.opaBox{
+  position: absolute;
+  bottom:0;left:0;
+  width:100%;
+  height:2.45rem;
+  background: #000;
+  opacity: 0.6;
+}
+.myCon{
+  position: absolute;
+  bottom:0;left:0;
+  width:100%;
+  height:2.45rem;
+  padding:0.3rem 0.6rem;
+}
+.myLogo{
+  float: left;
+  width:1.875rem;
+  height:1.875rem;
+  margin-left: 0.4rem;
+  background: url("./myLogo.png") no-repeat;
+  background-size: 1.875rem 1.875rem;
+}
+.myWords{
+  float: left;
+  margin-left: 0.5rem;
+}
+.myWords p{
+  color:#fff;
+  font-size:0.65rem;
+}
+.goDownlwd{
+  float: left;
+  width:3.4rem;
+  height:1.2rem;
+  margin-left: 1.5rem;
+  margin-top: 0.35rem;
+  text-align: center;
+  line-height: 1.2rem;
+  background:#f8c300;
+  border-radius: 3px;
+  font-size:0.6rem;
+}
+.myClose{
+  float: right;
+  width:1rem;
+  height:1rem;
+  background: url("./close.png") no-repeat center top;
+  background-size: 0.45rem 0.45rem;
+}
+.proCon1{
+  width:100%;
+  overflow: hidden;
+}
+.proCon{
+  padding-left:0.15rem;
+  width:120%;
+}
+.proCon li{
+  float: left;
+  width:40%;
+  height:13.2rem;
+  margin-top:0.6rem;
+  margin-right: 0.6rem;
+  border:1px solid #dddfe0;
+  padding-bottom: 0.4rem;
+}
+.proCon li>a{
+  display: block;
+  width:100%;
+  height:100%;
+
+}
+.proImg{
+  width:100%;
+  height:9rem;
+}
+.proImg img{
+  width:100%;
+}
+.proNameCon{
+  height:2.8rem;
+  padding:0 0.3rem;
+}
+.hotWord{
+  float: left;
+  width:1.8rem;
+  height:1rem;
+  margin-top:0.6rem;
+  line-height: 1rem;
+  text-align:center;
+  background:#c60000;
+  border-radius: 3px;
+  color:#fff;
+  font-size:0.65rem;
+}
+.proName{
+  float: right;
+  width:6rem;
+  height:100%;
+  word-break:break-all;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  font-size:0.55rem;
+}
+.proPrice{
+  margin-left:0.3rem;
+  font-size:0.8rem;
+  font-weight: bold;
+  color:#c60000;
+}

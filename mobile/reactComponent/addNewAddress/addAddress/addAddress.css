@@ -1,0 +1,120 @@
+.addAddressContent {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+body {
+    background-color: #fff;
+}
+.title {
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f8c300;
+    color: #fff;
+    top: 0px;
+}
+.title2 {
+  height: 2.2rem;
+  width: 100%;
+}
+.titleLeft {
+  float: left;
+  height: 2.25rem;
+  line-height: 2.25rem;
+}
+.backImg {
+  float: left;
+  height: 1.05rem;
+  width: 0.6rem;
+  position: absolute;
+  margin-top: 0.7rem;
+  margin-left: 0.6rem;
+}
+.titleCenter {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 2.2rem;
+}
+.content {
+  width: 100%;
+  padding: 0px 1rem;
+  font-size: 0.7rem;
+  color: #231815;
+}
+.content input {
+  width: 100%;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+  border:1px solid #e5e5e5;
+  height: 1.4rem;
+  padding-left: 0.5rem;
+}
+.content select {
+  width: 100%;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+  border:1px solid #e5e5e5;
+  height: 1.4rem;
+}
+.name {
+  margin-top: 0.5rem;
+}
+.addAddressBottom {
+  width: 100%;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.7rem;
+  background-color: #dd127b;
+  border-radius: 0.2rem;
+  color: #fff;
+}
+.content .street {
+  width: 100%;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+  border:1px solid #e5e5e5;
+}
+.content .submitButton {
+  width: 100%;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.7rem;
+    background-color: #f8c300;
+    border-radius: 0.2rem;
+    color: #fff;
+}
+.moRenAddress {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  color: #231815；
+}
+.moRenAddressLeft {
+  float: left;
+}
+.moRenAddressRight {
+  float: right;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.moRenAddressRight img {
+  height: 30px;
+}
+.delet {
+  float: right;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+
+}
+.title12 {
+  background-color: #000;
+  color: #f8c300;
+}

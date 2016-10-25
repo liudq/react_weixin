@@ -1,0 +1,43 @@
+*{
+  box-sizing:border-box;
+}
+.imgUpLoad{
+  display: none;
+}
+.imgUpLoad.show{
+  display: inline-block;
+}
+.fileUpLoad{
+  display: none;
+}
+.clearfix:after{
+  clear:both;
+  display:block;
+  visibility:hidden;
+  height:0;
+  line-height:0;
+  content:'';
+}
+.clearfix{
+  zoom:1;
+}
+.previewDiv0,.previewDiv1,.previewDiv2,.previewDiv3,.previewDiv4,.previewDiv5{
+  float: left;
+  width:45%;
+  height:120px;
+  overflow:hidden;
+  display: none;
+} 
+.previewDiv1 {
+  float: right;
+  width:45%;
+  height:120px;
+  overflow:hidden;
+  display: none;
+}
+.previewDiv0.show,.previewDiv1.show,.previewDiv2.show,.previewDiv3.show,.previewDiv4.show,.previewDiv5.show{
+  display: block;
+} 
+.imgUpLoad0,.imgUpLoad1,.imgUpLoad2,.imgUpLoad3,.imgUpLoad4,.imgUpLoad5{
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}

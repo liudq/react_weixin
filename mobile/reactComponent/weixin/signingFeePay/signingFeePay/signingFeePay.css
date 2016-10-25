@@ -1,0 +1,168 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.pay {
+  width: 100%;
+  height: 100%;
+}
+.section1 {
+  width: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #000;
+  margin-top: 1.5rem;
+}
+.payTypeNo {
+  background-color: rgb(235, 235, 228);
+  border:1px solid rgb(235, 235, 228);
+}
+.payType1 {
+  width: 6rem;
+  height: 2rem;
+  border:1px solid #a6a2a3;
+  border-radius: 0.3rem;
+  margin:0rem auto;
+  margin-top: 1rem;
+  text-align: center;
+  color: #bababa;
+  line-height: 1.8rem;
+}
+.payType2 {
+  width: 6rem;
+  height: 2rem;
+  border:1px solid #a6a2a3;
+  border-radius: 0.3rem;
+  margin:0rem auto;
+  margin-top: 1rem;
+  text-align: center;
+  color: #bababa;
+  line-height: 1.8rem;
+}
+.payActive {
+  background-color: #000;
+  color: #f8c300;
+}
+.section2 {
+  width: 100%;
+  margin-top: 2.5rem;
+  padding:0rem 3rem;
+}
+.sec2Title {
+  text-align: center;
+  color: #000;
+  font-size: 0.75rem;
+}
+.inputCss {
+  width: 100%;
+  border:0rem;
+  border-bottom: 1px solid #bbbbbb;
+  height: 1.75rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #bbb;
+  line-height: 1.75rem;
+  margin-top: 0.75rem;
+  background-image: url("./code.png");
+  background-repeat: no-repeat;
+  background-size: 1rem auto;
+  background-position: 3% center;
+}
+.tiShi {
+  width: 100%;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #bcbcbc;
+  margin-top: 0.6rem;
+}
+.tiShi img {
+  width: 0.7rem;
+  margin-right: 0.3rem;
+}
+.button {
+  width: 100%;
+  padding:0rem 0.75rem;
+  margin-top: 3rem;
+}
+.submit {
+  width: 100%;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  background-color: #000;
+  color: #f8c300;
+  text-align: center;
+  font-size: 0.75rem;
+  border-radius: 0.3rem;
+}
+.xiyi {
+  width: 100%;
+  margin-top: 1rem;
+}
+.xiyiLeft {
+  width: 1rem;
+  height: 1rem;
+  border:1px solid #d1d1d1;
+  border-radius: 0.2rem;
+  float: left;
+  margin-right: 0.5rem;
+}
+.xiyiBg {
+  background-image: url("./confirm.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.xiyiRight {
+  float: left;
+  font-size: 0.75rem;
+}
+.invitationAlert {
+  width: 80%;
+  position: fixed;
+  top: 120px;
+  left: 10%;
+  background-color: #fff;
+  border:1px solid #bbbbbb;
+  border-radius: 6px;
+  text-align: center;
+  padding:0.5rem;
+  z-index: 4;
+}
+.invTitle {
+  width: 100%;
+  text-align: center;
+  padding:10px;
+  margin-bottom: 1rem;
+}
+.submitButton {
+  width: 50%;
+  padding:10px;
+  text-align: center;
+  margin:0px auto;
+  background-color: #000;
+  color: #f8c300;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+}
+.invitationAlertBg {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 3;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.noPayCss {
+  background-color: #bbb;
+  color: #fff;
+}

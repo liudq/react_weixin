@@ -1,0 +1,435 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+
+a{
+  text-decoration:none;
+}
+em{
+  font-style:normal;
+}
+body{
+  background:#eeeeee;
+}
+.content {
+  width: 100%;
+}
+
+/* title开始 */
+.specialTitlet{
+  width: 100%;
+  height: 2.5rem;
+}
+.specialTitle {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1;
+  width: 100%;
+  height: 2.5rem;
+  line-height:2.5rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #fff;
+  background-color: #f8c300;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}
+.specialTitle img {
+  width: 0.6rem;
+}
+.shareBaobao {
+  position: absolute;
+  right: 0;
+  top:0;
+  padding:0 0.5rem;
+}
+.shareBaobao img {
+  width: 1rem;
+}
+
+.backImgCss {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:0 0.5rem;
+}
+.backImgCss img {
+  width: 0.6rem;
+  height: 1.05rem;
+}
+.bannerContainer{
+  position: relative;
+}
+.ruleBtn{
+  position: absolute;
+  bottom: 0.35rem;
+  right: 0;
+  padding:0.2rem 0.4rem;
+  background: #382e2c;
+  font-size: 0.8rem;
+  color: #fff;
+  /*letter-spacing: 1px;*/
+}
+
+/*活动规则说明*/
+.rule{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  background: #feffef;
+  z-index: 101;
+  padding: 0.75rem;
+  display: none;
+}
+.rule h1{
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  color: #826300;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+.rule p{
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  color: #8e6b0f;
+}
+.rule a{
+  display: block;
+  border:0.05rem solid #f8c200;
+  width: 5rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.65rem;
+  color: #ffd66a;
+  margin: 0 auto;
+}
+/*遮层罩*/
+.ruleMask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  z-index: 100;
+  display: none;
+}
+/* 悬浮按钮开始 */
+.backImgA {
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixUpCss {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixBackCss {
+  width: 2rem;
+  height: 2rem;
+}
+.block {
+  display: block;
+}
+
+/* 悬浮按钮结束 */
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+/*主体开始*/
+.mainBox{
+  position:relative;
+}
+.tabConTop{
+  width: 100%;
+  z-index:1;
+}
+.tabCon{
+  position: relative;
+  width:100%;
+  border-top: 0.05rem solid #e0e0e0;
+
+}
+
+.tabCon li{
+  float: left;
+  width: 50%;
+  text-align: center;
+  /*line-height: 2.25rem;*/
+  background: #000;
+  color:#fff;
+  font-size:0.85rem;
+  padding:0.4rem 0 0.4rem 0;
+}
+.xhfather{
+  position: relative;
+}
+.tehui{
+  color:#f8c301;
+}
+.xiahua{
+  position: relative;
+  width: 3.1rem;
+  height: 0.15rem;
+  background:#000;
+  top:0;
+  left:50%;
+  margin-left:-1.55rem;
+  margin-top:0.25rem;
+}
+.on{
+  background:#f8c301;
+}
+.on2{
+  background:#f8c301;
+}
+.mainCon{
+  position: relative;
+  width:100%;
+  padding:0.5rem;
+  padding-bottom:2.5rem;
+  padding-right: 0;
+}
+
+/*每项产品的tiele名*/
+.Price1{
+  height: 1rem;
+  text-align:center;
+  padding-right:0.5rem;
+  display:none;
+}
+
+
+
+/*更多*/
+.Price2{
+  height: 1rem;
+  text-align:center;
+  padding:0 0.5rem;
+  display:none;
+}
+.Price1_left{
+  width: 21%;
+}
+.Price1_right{
+  width: 21%;
+}
+.xiahuaa{
+  height: 0.25rem;
+  border-bottom: 0.05rem solid #f8c300;
+}
+.Price1_center{
+  width: 8.9rem;
+  color:#f8c300;
+  /*height:0.25rem;*/
+  line-height:0.25rem;
+  font-size:0.9rem;
+  text-align:center;
+}
+.tb{
+  color:#f8c300;
+}
+
+
+
+/*一分钱四个产品*/
+.productCon{
+  width:100%;
+/*  height: 480px;
+  overflow:hidden;*/
+}
+.productCon ul{
+}
+.productM{
+  width: 47%;
+  height: 13rem;
+  margin-bottom:0.5rem;
+  background:#ffffff;
+  margin-right:0.5rem;
+}
+.productaImg{
+  width: 100%;
+  height: 8rem;
+  overflow:hidden;
+}
+.productaImg img{
+  width: 100%;
+}
+.productaName{
+  width: 100%;
+  height: 1rem;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  padding:0 1rem;
+  color:#414141;
+  margin:0.9rem 0 0;
+}
+.moneyCart{
+  padding-top:0.45rem;
+}
+
+.moneyN{
+}
+.moneyN1{
+  display:inline-block;
+  height: 1.05rem;
+  background:#f8c301;
+  color:#ffffff;
+  text-align:center;
+}
+.moneyN2{
+  display:inline-block;
+  height: 1.05rem;
+  background:#232323;
+  color:#ffffff;
+  text-align:center;
+  padding:0 0.15rem;
+  border-radius:0 0.25rem 0.25rem 0;
+}
+.moneyN3top{
+  margin-top:0.2rem;
+}
+.moneyN3{
+  color:#414141;
+  font-size:0.6rem;
+}
+/*加入购物车特特效start*/
+.addNum{
+  position: absolute;
+  top:-0.1rem;
+  right:-0.15rem;
+  width:1.4rem;
+  height:1.4rem;
+  border-radius: 50%;
+  background:#000;
+  color:#f8c301;
+  text-align: center;
+  line-height: 1.4rem;
+  z-index:200;
+  transform:translate(0px, 0px);
+  display: none;
+}
+/*加入购物车特特效end*/
+.cartAA img{
+  width: 100%;
+}
+/*结算*/
+.settlementat{
+  width: 100%;
+  height: 2.2rem;
+}
+.settlementa{
+  width: 100%;
+  height: 2.2rem;
+  background:#050102;
+  position: fixed;
+  left:0;
+  bottom:0;
+  display:none;
+}
+.settlementax{
+  width: 100%;
+  height: 2.2rem;
+  background:#050102;
+  position: fixed;
+  left:0;
+  bottom:0;
+}
+.settlemental{
+  display:inline-block;
+  width: 60%;
+}
+.moneyH{
+  color:#ffffff;
+}
+.settlementar{
+  width: 40%;
+  display:inline-block;
+  text-align:center;
+  background:#f8c301;
+  height: 2.2rem;
+  line-height:2.2rem;
+  font-size:0.95rem;
+}
+.settlementar em{
+  color:#242223;
+}
+.settlementarx{
+  width: 100%;
+  display:inline-block;
+  text-align:center;
+  background:#f8c301;
+  height: 2.2rem;
+  line-height:2.2rem;
+  font-size:0.95rem;
+}
+.settlementarx em{
+  color:#242223;
+}
+.nonea{
+  display:none;
+}
+
+/*我的抢购历史*/
+.historya{
+  position: fixed;
+  bottom:4.95rem;
+  left:0px;
+  opacity:0.8;
+  width: 41%;
+  height: 1.65rem;
+  line-height:1.65rem;
+  background:#666666;
+  text-align:center;
+}
+.historya a{
+  display:inline-block;
+  width: 7.7rem;
+  height: 1.6rem;
+}
+.historyaz{
+  position: relative;
+  color:#ffffff;
+}
+.historyazs{
+  width: 1.15rem;
+  height: 1.15rem;
+  line-height:0.85rem;
+  position: absolute;
+  top:-0.25rem;
+  right:-0.25rem;
+  background:#f8c301;
+  color:#000002;
+  border-radius:0.7rem;
+  border:0.1rem solid #000002;
+}

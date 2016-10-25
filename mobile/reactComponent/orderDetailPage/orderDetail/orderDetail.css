@@ -1,0 +1,101 @@
+body {
+    background-color: #e5e5e5;
+}
+.orderDetailContent {
+  width: 100%;
+}
+.titleDiv {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.titleDiv2 {
+    width: 100%;
+    height: 2.45rem;
+}
+.title {
+    width: 100%;
+    padding: 0.7rem 0px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #444444;
+    background-color: #fff;
+}
+.order2Img {
+    float: left;
+    height: 1.05rem;
+    width: 0.6rem;
+    position: absolute;
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+}
+.successPrompt {
+  width: 100%;
+  height: 6rem;
+  background-color: #ff87bc;
+  line-height: 6rem;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.orderContent {
+  width: 100%;
+  margin-top: 0.55rem;
+  padding: 0.6rem 1.6rem;
+  background-color: #fff;
+  font-size: 0.75rem;
+  color: #333333; 
+}
+.name {
+  font-style: normal;
+  margin-left: 0.25rem;
+}
+.phone {
+  font-style: normal;
+  margin-left: 0.55rem;
+}
+.addresseePeople {
+  font-size: 0.7rem;
+  color: #333333
+}
+.addresseeAddress {
+  font-size: 0.6rem;
+  color: #878787;
+  margin-top: 0.3rem;
+}
+.addresseeAddress i {
+  font-style: normal;
+}
+.checkOrder {
+  height: 1.05rem;
+  width: 3rem;
+  border: 1px solid #c9c9c9;
+  line-height: 1rem;
+  text-align: center;
+  color: #888888;
+  font-size: 0.55rem;
+  margin: 0 auto;
+}
+.checkOrderDiv {
+  width: 100%;
+  margin-top: 0.7rem;
+  text-align: center;
+}
+.remind {
+  margin-top: 0.55rem;
+  width: 100%;
+  padding: 0.4rem 0.7rem;
+  color: #444444;
+  font-size: 0.6rem;
+  background-color: #fff;
+}
+.remind i {
+  font-style: normal;
+  color: #df117e;
+}
+.title12 {
+  background-color: #000;
+  color: #f8c300;
+}

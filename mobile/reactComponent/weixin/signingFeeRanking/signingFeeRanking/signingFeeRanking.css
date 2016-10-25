@@ -1,0 +1,202 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+em{
+  font-style:normal;
+}
+.pay {
+  width: 100%;
+}
+
+
+/*头部*/
+.specialTitlet{
+  width: 100%;
+  height: 2.5rem;
+}
+.specialTitle {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1;
+  width: 100%;
+  height: 2.5rem;
+  line-height:2.5rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #fff;
+  background-color: #f8c300;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}
+.specialTitle img {
+  width: 0.6rem;
+}
+.backImgCss {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:0 0.5rem;
+}
+/*头部结束*/
+
+
+
+.tab {
+  width: 100%;
+  background-color: #000;
+  padding:0.25rem 0rem;
+}
+.tab1 {
+  width: 33.33%;
+  float: left;
+}
+.tab2 {
+  width: 33.33%;
+  float: left;
+}
+.tab3 {
+  width: 33.33%;
+  float: left;
+}
+.tabDiv {
+  margin:0rem auto;
+  width: 2.25rem;
+  height: 1.25rem;
+  line-height: 1.2rem;
+  border-bottom: 1px solid #000;
+  color: #fff;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.tabDivActive {
+  border-bottom: 1px solid #f8c300;
+}
+.content {
+  width: 100%;
+}
+.tabCont {
+  width: 100%;
+}
+.section1 {
+  width: 100%;
+  background-color: #f8c300;
+  padding:0.75rem 2rem
+}
+.sec1Left {
+  width: 50%;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  border-right: 1px solid #fff;
+  float: left;
+}
+.sec1Right {
+  width: 50%;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  float: right;
+  text-align: right;
+}
+.sec1Left div {
+  line-height: normal;
+  text-align: left;
+}
+.sec1Right div {
+  line-height: normal;
+  text-align: right;
+}
+.sec1Left .sec1Bot {
+  padding-left: 1rem;
+}
+.sec1BotYes{
+
+}
+.sec1Right .sec2Bot{
+  padding-right: 2.5rem;
+}
+.section2 {
+  width: 100%;
+}
+.user {
+  width: 100%;
+  padding:0.55rem 0;
+}
+.userOne{
+  padding-left:0.5rem;
+  color:#231816;
+}
+.userOnedf{
+  padding-left:1.35rem;
+  color:#c60001;
+  display:none;
+}
+.userOnedfa{
+  padding-left:1.35rem;
+  color:#c60001;
+  display:none;
+}
+.xianss{
+  display:block;
+  display:inline-block;
+}
+.userOneMoneyall{
+  width: 4.75rem;
+}
+.userOneMoney{
+  width: 1rem;
+}
+.userOneMoneya{
+  color:#e6c522;
+  padding-right:0.4rem;
+  padding-left:0.25rem;
+}
+.colorr{
+  width: 100%;
+  height: 0.5rem;
+  background:#f8f8f8;
+}
+.bannerimgMary{
+  height: 6.5rem;
+}
+.rankingAALi{
+  padding:0.6rem 0;
+  border-top:1px dashed #ededed;
+  border-bottom:1px dashed #ededed;
+}
+.juza{
+  margin-top:0.35rem;
+  width: 4.75rem;
+}
+.rankingAI{
+  padding-left:0.5rem;
+}
+.rankingAA{
+  width: 1.4rem;
+}
+.rankingAH{
+  padding-left:1.1rem;
+}
+
+/*无数据图*/
+.noDatasi{
+  position: absolute;
+  top:4.25rem;
+  display:none;
+}
+.noDatasi img{
+  width: 18.75rem;
+}
+.xiaos{
+  display:block;
+}
+.hiddd{
+  display:none;
+}

@@ -1,0 +1,91 @@
+
+.clearfix{
+  composes:clearfix from "../common/util/util.css";
+}
+body{
+  font-size: 12px;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.MyHeader{
+  width:100%;
+}
+a{
+  color: #000;
+}
+.proSearch{
+  position:relative;
+  width:100%;
+  height:1.8rem;
+  padding:0.2rem 0;
+  background: #f8c300;
+}
+.back{
+  float: left;
+  width:3.5rem;
+  height:1.4rem;
+  background-size:0.6rem 1.05rem;
+}
+.search{
+  float: left;
+  position: relative;
+  width:12.5rem;
+  height:1.4rem;
+  margin-left:0.45rem;
+}
+.search input{ 
+  width:100%;
+  height:1.4rem;
+  padding-right:1.4rem;
+  padding-left:0.45rem;
+  background:url("./Bsearch.png") 11.5rem center no-repeat #e7e7e7;
+  background-size:0.65rem;
+  border:none;
+  border-radius:3px;
+  font-size:0.65rem;
+}
+.searchBtn{
+  position: absolute;
+  right:0;
+  top:0;
+  width:1.4rem;
+  height:1.4rem;
+}
+.more{
+  float: right;
+  width:3rem;
+  height:1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  font-size:0.7rem;
+  color:#444;
+}
+.allProBox{
+  width:100%;
+  display: none;
+  margin-top:0.2rem;
+}
+.proConTit{
+  width:100%;
+  height:2.15rem;
+  border-top:0.025rem solid #e5e5e5;
+  border-bottom:0.025rem solid #e5e5e5;
+}
+.proConTit li{
+  float: left;
+  width:20%;
+  height:100%;
+  text-align: center;
+  line-height: 2.15rem;
+  font-size:0.65rem;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}

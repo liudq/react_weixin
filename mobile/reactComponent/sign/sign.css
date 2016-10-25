@@ -1,0 +1,23 @@
+.content {
+  width: 100%;
+  text-align: center;
+}
+.content img {
+  margin-top: 3rem;
+  width: 5rem;
+}
+.content p {
+  font-size: 0.7rem;
+  margin-top: 2.5rem;
+  color: #000000;
+}
+.content a {
+  display: block;
+  background-color: #f8c301;
+  width: 9rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  color: #000;
+  margin:0px auto;
+  margin-top: 1rem;
+}

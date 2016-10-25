@@ -1,0 +1,100 @@
+.content {
+    width: 100%;
+}
+.numberOne {
+  background-color: #ffc148;
+  margin-bottom: 0.5rem;
+  padding:0.6rem 0.75rem;
+  height: 4.4rem;
+}
+.clear {
+  clear: both;
+}
+.numberOneLeft {
+  float: left;
+  line-height: 3.2rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.numberOneHeader {
+  float: left;
+  background-image: url("./tuiguang_03.png");
+  background-repeat: no-repeat;
+  background-size: 1.75rem 1.15rem;
+  padding-top: 1rem;
+  background-position: center top;
+  margin-left: 0.7rem;
+}
+.numberSecondHeader {
+  float: left;
+  background-image: url("./tuiguang_07.png");
+  background-repeat: no-repeat;
+  background-size: 1.75rem 1.15rem;
+  padding-top: 1rem;
+  background-position: center top;
+  margin-left: 0.7rem;
+}
+.numberThirdHeader {
+  float: left;
+  background-image: url("./tuiguang_11.png");
+  background-repeat: no-repeat;
+  background-size: 1.75rem 1.15rem;
+  padding-top: 1rem;
+  background-position: center top;
+  margin-left: 0.7rem;
+}
+.numberOtherHeader {
+  float: left;
+  background-size: 1.75rem 1.15rem;
+  padding-top: 0.5rem;
+  background-position: center top;
+  margin-left: 0.7rem;
+}
+.numberOneHeader img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.numberOtherHeader img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.numberOneUser {
+  float: left;
+  margin-left: 0.75rem;
+}
+.numberOneName {
+  color: #241915;
+  font-size: 0.7rem;
+  margin-top: 0.9rem;
+}
+.numberOnePrice {
+  color: #241915;
+  font-size: 0.5rem;
+  margin-top: 0.6rem;
+}
+.numberOneRight {
+  float: right;
+  margin-left: 0px;
+  text-align: right;
+}
+.numberSecond {
+  background-color: #c1bec5;
+}
+.numberThird {
+  background-color: #c0a878;
+}
+.numberOther {
+  background-color: #fff;
+}
+.numberOneOther {
+  color: #9c9c9c;
+}
+.mySelf p {
+  color: #df127b;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}

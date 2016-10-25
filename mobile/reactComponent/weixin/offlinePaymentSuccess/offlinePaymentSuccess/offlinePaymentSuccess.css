@@ -1,0 +1,39 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #fbf9fa;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.section1 {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1rem;
+  color: green;
+  padding:0rem 1rem;
+}
+.section2 {
+  width: 100%;
+  background-color: #fff;
+  padding:1rem;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+}
+.money {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.moneyLeft {
+  float: left;
+}
+.moneyRight {
+  float: right;
+}

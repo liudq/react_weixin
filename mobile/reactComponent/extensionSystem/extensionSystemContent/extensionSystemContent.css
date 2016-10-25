@@ -1,0 +1,63 @@
+.extensionSystemContent {
+  width: 100%;
+}
+.clear {
+  clear: both;
+}
+.titleDiv {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.titleDiv2 {
+  width: 100%;
+  height: 2.45rem;
+}
+.order2Img {
+  float: left;
+  height: 1.05rem;
+  width: 0.6rem;
+  position: absolute;
+  margin-top: 0.7rem;
+  margin-left: 0.6rem;
+}
+.title {
+    width: 100%;
+    padding: 0.7rem 0px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #444444;
+    background-color: #fff;
+}
+.content {
+  width: 100%;
+}
+.tabTitle {
+  width: 100%;
+}
+.tabUl {
+  width: 100%;
+}
+.tabUl li {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  color: #221715;
+  font-size: 0.6rem;
+  line-height: 2.2rem;
+  height: 2.2rem;
+  background-color: #e5e5e5;
+}
+.tabUl .active {
+  border-bottom: 0.15rem solid #dd127b;
+  background-color: #fff;
+  color: #db127a;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}

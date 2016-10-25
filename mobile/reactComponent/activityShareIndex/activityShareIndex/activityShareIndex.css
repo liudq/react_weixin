@@ -1,0 +1,156 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+} 
+
+.content {
+  width: 100%;
+
+}
+.title {
+  width: 100%;
+  height:2.2rem;
+  background-color: #000;
+  text-align: center;
+  line-height: 2.2rem;
+  color: #f8c300;
+  font-size: 0.9rem;
+}
+.back {
+  color: #fff;
+  line-height: 2.2rem;
+  float: left;
+  position: absolute;
+  left: 0px;
+  padding-right: 0.5rem;
+}
+.back img {
+  width: 0.7rem;
+  margin-left: 0.5rem;
+}
+.myPic{
+  width:100%;
+  height:10rem;
+}
+.myPic img{
+  width:100%;
+  height:100%;
+}
+.mianCon{
+  width:100%;
+  padding:0.5rem;
+}
+.myLink{
+  height:2rem;
+
+}
+.myLink a{
+  display: inline-block;
+  line-height: 2rem;
+  font-size:0.9rem;
+  color:#000;
+}
+a.myColor{
+  color:#f8c300;
+}
+.tipCon {
+  margin-top:.4rem;
+}
+.tipCon div{
+  float: left;
+  width:50%;
+  height:3.65rem;
+  padding:0.5rem;
+  background: #fffbec;
+  box-shadow: 0px 3px 3px #e8e7e7;
+}
+.award1{
+  /*border-right: 1px solid #d9d5c8;*/
+}
+.award2{
+  /*border-left: 1px solid #eae5d6;*/
+}
+.myWord{
+  float: left;
+  width:5rem;
+  margin-top: 0.3rem;
+  font-size:0.8rem;
+}
+.small{
+  font-size:0.4rem;
+  font-style: normal
+}
+.cashIncome{
+  float: left;
+  width:2rem;
+  height:2.8rem;
+  margin-left: 0.5rem;
+  margin-top:0.2rem;
+  padding-top:1.2rem;
+  background: url("./income1.png") no-repeat top center;
+  background-size: 1.6rem;
+  font-size:1rem;
+  color:#e60012;
+}
+.incomeRatio{
+  float: left;
+
+  height:2.8rem;
+  margin-left: 0.8rem;
+  margin-top:0.2rem;
+  padding-top:1.2rem;
+  background: url("./income2.png") no-repeat top center;
+  background-size: 1.6rem;
+  font-size:1rem;
+  color:#55c052;
+}
+.buttonCon{
+  width:100%;
+  margin-top:4rem;
+  text-align: center;
+}
+.buttonCon a{
+  display: inline-block;
+  width:88%;
+  height:2rem;
+  line-height: 2rem;
+  border-radius: 3px;
+  background: #f8c300;
+  font-size:0.85rem;
+  color:#fff;
+}
+.buttonCon p{
+  margin-top:0.4rem;
+  font-size:0.6rem;
+  color:#575757;
+}
+.opc{
+  position: fixed;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+  background: #000;
+  opacity: 0.8;
+  display: none;
+}
+.opc img{
+  position: absolute;
+  right:5%;top:3%;
+  width:80%;
+}
+.opc .yd2{
+  top:10%;
+  right:5%;
+  width:90%;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.show{
+  display:block;
+}
+.hide{
+  display:none;
+}

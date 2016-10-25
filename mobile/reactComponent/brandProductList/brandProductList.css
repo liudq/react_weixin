@@ -1,0 +1,195 @@
+.clearfix{
+  composes:mContainer from "../common/util/util.css";
+}
+body{
+ background: #fcfcfc; 
+}
+.proSearch{
+  width:100%;
+  height:1.8rem;
+  padding:0.2rem 0;
+  background: #f8c300;
+}
+.back{
+  float: left;
+  width:2.5rem;
+  height:1.4rem;
+  background:url("./BBack.png") center center no-repeat;
+  background-size:0.6rem 1rem;
+}
+.search{
+  float: left;
+  width:12.8rem;
+  height:1.4rem;
+  line-height: 1.4rem;
+  padding-left:1.4rem;
+  background:#fff url("./Bsearch.png") 0.65rem center no-repeat;
+  background-size:0.65rem;
+  border:0.025rem solid #e5e5e5;
+  border-radius:0.125rem;
+  font-size:0.65rem;
+  cursor: pointer;
+  color:#a6a6a6;
+}
+.noPro{
+  width:100%;
+  padding:1.5rem 0;
+  text-align: center;
+  color:#ccc;
+  font-size:0.65rem;
+}
+.noPro p{
+  margin-top:0.5rem;
+}
+
+.proConBox{
+  width:100%;
+  padding:0 0.45rem;  
+}
+.chooseBox{
+  position:relative;
+  width:100%;
+}
+.proConTit{
+  width:100%;
+  height:2.15rem;
+  border-top:0.025rem solid #e5e5e5;
+  border-bottom:0.025rem solid #e5e5e5;
+}
+.proConTit li{
+  float: left;
+  width:30%;
+  height:100%;
+  text-align: center;
+  line-height: 2.15rem;
+  font-size:0.65rem;
+}
+.chooseShow{
+  position:absolute;
+  top:2.15rem;left:0;
+  width:100%;
+  height:5.2rem;
+  padding-left:1.75rem;
+  background: #fff;
+  border-bottom: 0.025rem solid #e5e5e5;
+  font-size:0.65rem;
+}
+.chooseShow ul li{
+  width:100%;
+  line-height: 1.75rem;
+}
+.Cchecked{
+  display: inline-block;
+  width:0.55rem;
+  height:0.6rem;
+  margin-left:12rem;
+  background:url("./BChecked.png") center center no-repeat;
+  background-size:0.5rem 0.5rem  ;
+}
+/* .sortAll{
+  background:url("./BDown.png") 3.13rem center no-repeat;
+  background-size:0.33rem;
+} */
+.sortPrice{
+  /* background:url("./BUp.png") 3.13rem center no-repeat; */
+  background-size:0.33rem;
+}
+.proConTit .showWay{
+  width:10%;
+  border-left:0.025rem solid #e5e5e5;
+  background:url("./BVertical.png") center center no-repeat;
+  background-size:1rem;
+}
+
+.showWay.BVertical{
+  background:url("./BRow.png") center center no-repeat;
+  background-size:1rem;
+}
+.proCon{
+  width:100%;
+}
+.proCon li{
+  float: left;
+  width:50%;
+  margin-top:0.2rem;
+  padding:0 0.2rem;
+  height:10.8rem;
+  overflow: hidden;
+  border-bottom: 0.025rem solid #dcdcdc;
+}
+.proCon li img{
+  width:100%;
+  height:7.2rem;
+}
+.proCon li p{
+  margin-top:0.32rem;
+  line-height: 1.2rem;
+  font-size: 0.65rem;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  color:#666;
+}
+.proCon .proPrice{
+  color:#c60000;
+}
+.proCon2{
+  width:100%;
+  background:#fcfcfc;
+}
+.proCon2 li{
+  float: left;
+  width:100%;
+  height:6rem;
+  padding:0.45rem 0;
+  border-bottom: 0.025rem solid #dcdcdc;
+}
+.on{
+  color:#f8c300;
+}
+.proCon2 li img{
+  float: left;
+  width:30%;
+ height:5rem; 
+}
+.proCon2 .infBox{
+  float: left;
+  width:70%;
+}
+.proCon2 li p{
+  line-height: 1.2rem;
+  font-size: 0.65rem;
+  padding-left:0.5rem;
+  white-space:normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  color:#251714;
+}
+.proCon2 .proPrice{
+  color:#c60000;
+}
+.myLoadMask{
+  position: fixed;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 100;
+}
+.myLoadimg{
+  position: fixed;
+  top:40%;left:50%;
+  z-index: 101;
+  margin-left: -24px;
+  margin-top:-24px;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}

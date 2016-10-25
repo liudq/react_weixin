@@ -1,0 +1,89 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #f3f3f3;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiperContainer {
+  width: 100%;
+  height: 100%;
+}
+.swiperSlide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+.slideLeft{
+  width: 40%;
+  background: #f3f3f3;
+  padding: 10px 0px;
+}
+.slideRight{
+  width: 100%;
+  box-shadow: 0px 0px 8px #aaa;
+}
+
+.myContainer{
+  height: 100%;
+  width: 100%;
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+  flex-direction:column;
+  -webkit-flex-direction:column;
+}
+.myContainerT{}
+
+.myContainerC{
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  overflow: auto;
+}
+.myContainerC::-webkit-scrollbar {
+  width:3px;
+  height:0px;
+}
+.myContainerC::-webkit-scrollbar-button{
+  display: none;
+}
+.myContainerC::-webkit-scrollbar-track{
+  display: none;
+}
+.myContainerC::-webkit-scrollbar-track-piece{
+  background:#333;
+}
+.myContainerC::-webkit-scrollbar-thumb{
+  background:#f8c300;
+}
+.myContainerC::-webkit-scrollbar-corner {
+  display: none;
+}
+.myContainerC::-webkit-scrollbar-resizer  {
+  display: none;
+}
+
+.myContainerB{
+  flex-shrink:0;
+  -webkit-flex-shrink: 0;
+  height:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

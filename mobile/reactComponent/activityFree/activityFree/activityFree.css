@@ -1,0 +1,97 @@
+
+.content {
+  width: 100%;
+}
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.backImgCss {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding:0px 0.5rem;
+  margin-top: 0.5rem;
+}
+.banner .backImgCss img {
+  width: 0.6rem;
+  height: 1.05rem;
+}
+.titleImg {
+  width: 100%;
+}
+.titleImg img {
+  width: 100%;
+}
+.ruleCss {
+  width: 100%;
+  padding:0.5rem 0.6rem;
+  background-color: #fff;
+  color: #4b4b4b;
+}
+.ruleCss img {
+  width: 100%;
+}
+/* 悬浮按钮开始 */
+.backImgA {
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixUpCss {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixBackCss {
+  width: 2rem;
+  height: 2rem;
+}
+.block {
+  display: block;
+}
+
+/* 悬浮按钮结束 */
+
+/* title开始 */
+.specialTitle {
+  width: 100%;
+  padding: .5rem 0;
+  text-align: center;
+  font-size: .9rem;
+  color: #fff;
+  background-color: #f8c300;
+}
+.specialTitle img {
+  width: 0.6rem;
+}
+.shareBaobao {
+  position: absolute;
+  right: 0px;
+  top:0px;
+  margin-top: 0.5rem;
+  padding:0px 0.5rem;
+}
+.shareBaobao img {
+  width: 1rem;
+}
+.ruleCss p {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  font-family: "黑体";
+}
+/* title结束 */
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}

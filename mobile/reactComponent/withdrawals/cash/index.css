@@ -1,0 +1,103 @@
+.mContainer{
+  composes:mContainer from "../../common/util/util.css";
+}
+.mRow{
+  composes:mRow from "../../common/util/util.css";
+}
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+body,html{
+  height: 100%;
+}
+.rightMain000{
+  background: #f3f3f3;
+  padding: 10px;
+  composes:clearfix;
+  min-height: 100%;
+  width: 100%;
+}
+.rightMain{
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 4px;
+}
+.cerMain{
+  display: none;
+}
+.cerMain.show{
+  display: block;
+}
+.bindBankCard{
+  display: none;
+}
+.bindBankCard.show{
+  display: block;
+}
+.myp{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.mydiv{
+  padding-bottom: 10px;
+}
+.mydiv label{
+  font-size: 16px;
+  color: #333;
+  letter-spacing: 1px;
+}
+.mydiv input[type="text"]{
+  border:1px solid #ddd;
+  height: 30px;
+  border-radius: 4px;
+  text-indent: 5px;
+  font-size: 15px;
+  line-height: 30px;
+}
+.certification,.bindBankCardBtn{
+  display: block;
+  width: 80px;
+  height: 30px;
+  background: #f8c300;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 0px auto;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.loadingMask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.2;
+  z-index:500;
+  display: none;
+}
+.loadingMask.show{
+  display: block;
+}
+.loadingImg{
+  position: fixed;
+  z-index: 501;
+  top: 40%;
+  left: 50%;
+  margin-left: -24px;
+  margin-top: -24px;
+  display: none;
+}
+.loadingImg.show{
+  display: block;
+}

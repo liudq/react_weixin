@@ -1,0 +1,75 @@
+.clearfix{
+  composes:mContainer from "../../common/util/util.css";
+}
+.brandBox{
+  width:100%;
+  overflow: hidden;
+}
+.brandBox a{
+  color:#000;
+}
+.bannerBox{
+  width:100%;
+  
+}
+.bannerBox li{
+  width:100%;
+  height:100%;
+  float: left;  
+}
+.bannerBox li a{
+  display: block;
+  width:100%;
+  height:100%;
+}
+.bannerPic{
+  width: 100%;
+}
+.tit{
+  width:100%;
+  height:1.5rem;
+  line-height: 2rem;
+  padding-left: 0.4rem;
+  font-size:0.6rem;
+  font-weight: bold;
+  color:#434343;
+}
+.branList{
+  width: 100%;
+}
+.branList li{
+  float: left;
+  width:33.3%;
+  margin-top:0.45rem;
+  text-align: center;
+}
+.brandPic{
+  width: 3rem;
+  height:3rem;
+  border:1px solid #fcfcfc;
+}
+.brandName{
+  width:100%;
+  line-height:2rem;
+  white-space:nowrap;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  font-size: 0.6rem;
+  color:#888;
+}
+.myLoadMask{
+  position: fixed;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 100;
+}
+.myLoadimg{
+  position: fixed;
+  top:40%;left:50%;
+  z-index: 101;
+  margin-left: -24px;
+  margin-top:-24px;
+}

@@ -1,0 +1,511 @@
+body {
+    background-color: #e5e5e5;
+}
+.divTop {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */ 
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+  flex-direction:column;
+  -webkit-flex-direction:column;
+}
+.div1 {
+    border: 0px solid red;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    overflow: auto;
+}
+.titleDiv {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: #f8c300;
+}
+.titleDiv2 {
+  width: 100%;
+  height: 2.2rem;
+}
+.order2Img {
+  float: left;
+  height: 1.05rem;
+  width: 0.6rem;
+  position: absolute;
+  /* margin-top: 0.7rem;
+  margin-left: 0.6rem; */
+}
+.title {
+    width: 100%;
+    padding: 0.5rem 0px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #f8c300;
+}
+.adress {
+    width: 100%;
+    background-color: #fff;
+    padding: 0.75rem 0.6rem;
+    display: block;
+    color: #333333;
+    border-bottom: 1px solid #e5e5e5;
+}
+.adressLeft {
+    float:left;
+    width: 95%;
+    font-size: 0.7rem;
+}
+.adressRight {
+    float:right;
+    margin-left: 0rem;
+    width: 5%;
+    margin-top: -0.3rem;
+}
+.clear {
+    clear:both;
+}
+.adressImg1 {
+    height: 0.9rem;
+    padding-left: 0.2rem;
+}
+.adressTop {
+    width: 100%;
+}
+.adressName {
+    font-style: normal;
+    font-size: 0.7rem;
+    margin-left: 0.15rem;
+}
+.adressTopL {
+    float: left;
+}
+.adressTopR {
+    float: right;
+}
+.headImg {
+    width: 0.85rem;
+    height: 0.9rem;
+}
+.phoneImg {
+    width: 0.6rem;
+    height: 0.9rem;
+}
+.adressBottom {
+  width: 100%;
+  margin-top: 0.5rem;
+  color: #898989;
+}
+.adressBM {
+  width: 0.8rem;
+  height: 0.7rem;
+}
+.adressBm {
+  font-size: 0.35rem;
+  background-color: #dd127b;
+  color: #fff;
+}
+.adressBA {
+  font-size: 0.6rem;
+}
+.moRen {
+  width: 1.55rem;
+  height:0.7rem;
+  margin-top: -0.1rem;
+}
+
+/* Goods.css begain*/
+
+.goods {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.goodsTitle {
+  padding: 0.75rem;
+  width: 100%;
+  background-color: #fff;
+  color: #221816;
+  font-size: 0.5rem;
+}
+.goodsContent {
+  padding: 0.6rem;
+  background-color: #fff;
+}
+.goodsC1 {
+  float: left;
+  width: 23%;
+}
+.goodsC2 {
+  float: left;
+  width: 77%;
+  padding: 0.3rem 0.25rem; 
+}
+.goodsC3 {
+  float: right;
+  width: 100%;
+}
+.shopImg {
+  width: 4rem;
+  height: 4rem;
+}
+.goodsC2 p {
+  font-size: 0.6rem;
+  color: #888888;
+}
+.goodsC2P {
+  height: auto;
+}
+.seven {
+  height: 0.75rem;
+  width: 2.45rem;
+  background-color: #e0137a;
+  font-size: 0.35rem;
+  margin-top: 0.25rem;
+}
+.sevenImg {
+  width: 100%;
+  height: 100%;
+}
+.goodsNum {
+  font-size: 0.5rem;
+  color: #888888;
+  float: right;
+}
+.goodsC2 .goodsAmount {
+  font-size: 0.45rem;
+  color: #c60000;
+  float: left;
+  color: #c60000;
+}
+.goodsC3 p {
+  text-align: right;
+}
+.goodsX {
+  font-size: 0.6rem;
+  font-style: normal;
+}
+
+/* Goods.css end*/
+
+.goodsC4 {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+.goodsC4Top {
+  width: 100%;
+  padding: 0px 0.6rem;
+}
+.goodsC4Title{
+  width: 100%;
+  background-color: #fff;
+  height: 2.25rem;
+  font-size: 0.6rem;
+  line-height: 2.25rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.invoiceLeft {
+  float: left;
+}
+.invoiceRight {
+  float: right;
+  color: #888888;
+}
+.order3Img {
+  height: 0.5rem;
+  width: 0.85rem;
+}
+.invoiceImg {
+  margin-left: 0.35rem;
+}
+.goodsC5 {
+  background-color: #fff;
+  width: 100%;
+  padding: 0px 0.6rem;
+  height: 2.25rem;
+  font-size: 0.6rem;
+  line-height: 2.25rem;
+  margin-top: 0.5rem;
+}
+.goodsC6 {
+  background-color: #fff;
+  width: 100%;
+  padding: 0px 0.6rem;
+  height: 2.25rem;
+  font-size: 0.6rem;
+  line-height: 2.25rem;
+  margin-top: 0.5rem;
+}
+.freightLeft {
+  float: left;
+}
+.freightRight {
+  float: right;
+  color: #c60000;
+}
+.goodsC6 {
+  background-color: #fff;
+  width: 100%;
+  padding: 0px 0.6rem;
+  height: 2.25rem;
+  font-size: 0.6rem;
+  line-height: 2.25rem;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: right;
+}
+.goodsC6I {
+  color: #c60000;
+  font-style: normal;
+}
+.goodsC7 {
+  background-color: #fff;
+  width: 100%;
+  height: 2.45rem;
+  font-size: 0.7rem;
+  line-height: 2.45rem;
+  padding-left: 0.65rem;
+  -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+.goodsC72 {
+  width: 100%;
+  height: 2.45rem;
+  
+}
+.goodsC7 p {
+  color: #888888;
+  width: 50%;
+  float: left;
+}
+.goodsC7B {
+  float: right;
+  font-size: 0.7rem;
+  border: 0px;
+  height: 2.45rem;
+  width: 7rem;
+  background-color: #000;
+  color: #f8c300;
+}
+.invoiceDiv {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+.invoiceContent {
+  width: 100%;
+  padding: 0.6rem 0.6rem;
+  font-size: 0.6rem;
+}
+.invoiceCon {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+.invoiceHeader {
+  margin-top: 0.5rem;
+}
+.invoiceInput {
+  margin-top: 0.3rem;
+}
+.invoiceCon {
+  margin-top: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+.invoiceMingXi {
+  margin-top: 0.3rem;
+}
+.invoiceButtonDiv {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.invoiceSure {
+  float: left;
+  width: 50%;
+  background-color: #000;
+  font-size: 0.6rem;
+  color: #f8c300;
+  text-align: center;
+  line-height:2.25rem; 
+  border-right: 1px solid #fff;
+}
+.invoiceNoSure {
+  float: left;
+  width: 50%;
+  background-color: #000;
+  font-size: 0.6rem;
+  color: #f8c300;
+  text-align: center;
+  line-height:2.25rem;
+  border-left: 1px solid #fff;
+}
+.none{
+  display: none;
+}
+.block {
+  display: block;
+}
+.liJiShiYong {
+  width: 100%;
+  border:1px solid #000;
+  line-height: 1.25rem;
+  margin-top: 0.5rem;
+  color: #000000;
+  padding:0px 0.3rem;
+}
+.liJiShiYongActive {
+  width: 100%;
+  border:1px solid #fff;
+  line-height: 1.25rem;
+  margin-top: 0.5rem;
+  color: #fff;
+  padding:0px 0.3rem;
+  background-color: #f8c000;
+}
+.passwordAlert {
+  width: 14rem;
+  height: 8rem;
+  border:1px solid #e5e5e5;
+  position: fixed;
+  left: 2rem;
+  top: 8rem;
+  z-index: 4;
+  background-color: #fff;
+  text-align: center;
+}
+.passwordTiShi {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.5rem 0px;
+  color: red;
+}
+.passwordAlert input {
+   font-size: 0.8rem;
+   width: 80%;
+}
+.passwordBottom{
+  width: 100%;
+  border-top: 1px solid #aaaaaa;
+  padding: 0.6rem 2rem;
+}
+.quxiao {
+  float: left;
+  width: 4rem;
+  border:1px solid #e5e5e5;
+  font-size: 0.8rem;
+}
+.queding {
+  float: right;
+  width: 4rem;
+  border:1px solid #e5e5e5;
+  background-color: #e5e5e5;
+  font-size: 0.8rem;
+}
+.wangJiPassword {
+  width: 100%;
+  text-align: right;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  padding-right: 10%;
+  display: block;
+}
+.passWordBackgrout {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border: 1px solid red;
+  background-color: #000;
+  opacity: 0.3;
+}
+.selectCss {
+  float: left;
+  width: 6rem;
+  margin-left: 1rem;
+}
+.selectCss select {
+  width: 6rem;
+}
+.titleDiv a {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  float: left;
+  position: absolute;
+  left: 0px;
+}
+/* 实名认证弹框开始 */
+.realNameCss{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14rem;
+  height: 8rem;
+  background-color: #fff;
+  margin-top: -4rem;
+  margin-left: -7rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.realNameCss input {
+  margin-top: 1rem;
+}
+.realNameButton {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  border:1px solid #aaa;
+  padding:0.3rem 0.8rem;
+  background-color: #aaa;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+/* 实名认证弹框结束 */
+.payCss {
+  margin-top: 0.5rem;
+}
+/* 积分样式开始 */
+.jifenDiv {
+  width: 100%;
+  height: 1.5rem;
+}
+.jifenLeft {
+  float: left;
+  height: 1.5rem;
+  width: 30%;
+  border:1px solid #555;
+  background-color: #fff;
+  padding:0rem 0.5rem;
+  line-height: 1.5rem;
+}
+.jifenJian {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("./2.jpg");
+  background-size: 1.5rem 1.5rem;
+  float: left;
+}
+.jifenJia {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("./1.jpg");
+  background-size: 1.5rem 1.5rem;
+  float: left;
+}
+.jifenHuaBi {
+  float: left;
+  color: #c60000;
+  line-height: 1.5rem;
+  font-size: 0.6rem;
+  margin-left: 1rem;
+}
+.jifenRule {
+  font-size: 0.6rem;
+  margin-top: 1rem;
+}
+
+/* 积分样式结束 */
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}

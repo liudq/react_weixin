@@ -1,0 +1,268 @@
+.mContainer{
+  composes:mContainer from "../../../common/util/util.css";
+}
+.mRow{
+  composes:mRow from "../../../common/util/util.css";
+}
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+
+.bigImg{
+  border-bottom:1px solid #e9e9e9;
+  padding-top: 0.1rem;
+}
+.bigImgImg{
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0px auto;
+}
+.containerPadd{
+  padding: 0px 10px;
+}
+.title{
+  margin: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 10px;
+}
+.amount{
+  font-style: normal;
+  font-size: 16px;
+  color: #dc117a;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.parameter{
+  font-size: 13px;
+  line-height: 18px;
+}
+.parameter em{
+  font-style: normal;
+}
+.messContainer{
+  padding: 7px 0px;
+  width: 100%;
+  composes:clearfix;
+}
+.nameLabel{
+  float: left;
+  width: 20%;
+  font-size: 13px;
+  line-height: 1.85rem;
+  display: block;
+}
+.name{
+  float: right;
+  width: 70%;
+  height: 1.85rem;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  font-size: 16px;
+  text-indent: 10px;
+}
+.phoneLabel{
+  float: left;
+  width: 20%;
+  font-size: 13px;
+  line-height: 1.85rem;
+  display: block;
+}
+.phone{
+  float: right;
+  width: 70%;
+  height: 1.85rem;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  font-size: 16px;
+  text-indent: 10px;
+}
+.addressLabel{
+  float: left;
+  width: 20%;
+  font-size: 13px;
+  line-height: 1.85rem;
+  display: block;
+}
+.address{
+  float: right;
+  width: 70%;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  font-size: 16px;
+  text-indent: 10px;
+}
+.buyBtn{
+  display: block;
+  width: 100%;
+  height: 1.8rem;
+  background: #dd127b;
+  text-align: center;color: #fff;
+  line-height: 1.8rem;
+  font-size: 18px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.prompt{
+  width: 10.6rem;
+  height: 2rem;
+  display: block;
+  background: #000;
+  opacity: 0;
+  color: #fff;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 16px;
+  position: fixed;
+  left: 50%;
+  margin-left: -5.3rem;
+  top: 50%;
+  margin-top: -1rem;
+  z-index: 80;
+  display: none;
+  border-radius: 5px;
+}
+
+.mask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.85;
+  z-index: 10;
+  display: none;
+}
+.mask.show{
+  display: block;
+}
+.congratulations{
+  width: 100%;
+  height: 22.05rem;
+  background: url("./img/bg.jpg");
+  position: fixed;
+  top: 50%;
+  margin-top: -11rem;
+  background-size: 100% 100%;
+  z-index: 12;
+  display: none;
+}
+.congratulations.show{
+  display: block;
+}
+.congratulations a{
+  position: absolute;
+  width: 6rem;
+  height: 2.2rem;
+  display: block;
+  background:#ea4f1f;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 2.2rem;
+  left: 50%;
+  margin-left: -3rem;
+  bottom: 3.075rem;
+}
+
+.baoyou{
+  position: relative;
+  display: inline-block;
+  width: 2.1rem;
+  height: 1rem;
+  background: #e50112;
+  color: #fff;
+  font-style: normal;
+  font-size: 15px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 1rem;
+  margin-left: 10px;
+}
+
+.originalPrice{
+  font-size: 14px;
+  color: #898989;
+  text-decoration:line-through; 
+  padding: 15px 0px;
+}
+.originalPrice em{
+  font-style: normal;
+  font-size: 14px;
+  color: #898989;
+}
+
+.iconFloat{
+  float: left;
+  height: 20px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.buyBtnFixed{
+  position: fixed;
+  bottom: 0px;
+  height: 44px;
+  width: 100%;
+  display: block;
+  background: #dd127b;
+  text-align: center;
+  color: #fff;
+  line-height: 44px;
+  font-size: 18px;
+  display: none;
+}
+.buyBtnFixed.show{
+  display: block;
+}
+.empty44px{
+  height: 44px;
+  width: 100%;
+}
+.buyNowContainer{
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  width: 94%;
+  left: 3%;
+  background: #fff;
+  margin-top: -200px;
+  z-index: 40;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+.buyNowContainer.show{
+  display: block;
+}
+.buyNowMask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.85;
+  z-index: 10;
+  display: none;
+  z-index: 30;
+}
+
+.buyNowMask.show{
+  display: block;
+}
+.descriptionImg{
+
+}
+
+
+
+
+
+
+
+
+

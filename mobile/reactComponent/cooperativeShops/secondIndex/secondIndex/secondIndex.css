@@ -1,0 +1,65 @@
+
+.content {
+  width: 100%;
+}
+.addPic{
+  width:100%;
+  margin-bottom: 0.3rem; 
+}
+
+.addPic input{
+  position: absolute;
+  width:100%;
+  height:100%;
+  z-index:4;
+}
+
+.localImag{
+  position: relative;
+  width:100%;
+  height:10rem;
+  background: #dddcdc;
+}
+.close{
+  position: absolute;
+  top:0.4rem;
+  right:0.4rem;
+  width:1.05rem;
+  height:1.05rem;
+  background: url("./img/del.png") no-repeat center center; 
+  background-size:100%;
+}
+.nextSet{
+  position:fixed;
+  left:0;bottom: 0;
+  width:100%;
+  height:2.5rem;
+  background: #231815;
+  text-align: center;
+  line-height: 2.5rem;
+  color:#f8c300;
+  font-size: 1rem;
+  display: none;
+}
+
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

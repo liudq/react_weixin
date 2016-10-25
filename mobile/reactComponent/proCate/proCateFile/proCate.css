@@ -1,0 +1,158 @@
+.clearfix{
+  composes:mContainer from "../../common/util/util.css";
+}
+body{
+  font-size: 12px;
+}
+.bgr{
+  width:100%;
+  height:100%;
+  background: #e5e5e5; 
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.MyHeader{
+  width:100%;
+}
+a{
+  color: #000;
+}
+.proSearch{
+  position:relative;
+  width:100%;
+  height:2.25rem;
+  padding:0.3rem 0;
+  background:#fff;
+}
+.back{
+  float: left;
+  width:3.5rem;
+  height:1.6rem;
+  background:url("./BBack.png") 0.87rem center no-repeat;
+  background-size:0.6rem 1.05rem;
+}
+.tit{
+  float: left;
+  width:8.5rem;
+  height:1.6rem;
+  border-radius:0.125rem;
+  font-size:0.75rem;
+  text-align: center;
+  line-height: 1.6rem;
+  color: #dd127b;
+}
+.more{
+  float: left;
+  width:3.5rem;
+  height:1.6rem;
+  background:url("./BMore.png") 2rem center no-repeat;
+  background-size:1.075rem;
+}
+.goMore{
+  position:absolute;
+  top:2.2rem;
+  left:0;
+  z-index: 10;
+  width:100%;
+  height:3.2rem;
+  background:#fff;
+  opacity: 0.9;
+  filter:alpha(opacity:90);
+}
+.goMore li{
+  float: left;
+  width:25%;
+  padding-top: 0.575rem;
+  text-align: center;
+}
+.goMore li a{
+  display: inline-block;
+  font-size:0.575rem;
+}
+.homePage{ 
+  padding-top: 1.5rem;
+  background: url("./homepage.png") center top no-repeat;
+  background-size:1.1rem 1.1rem; 
+}
+.goSerch{
+  padding-top: 1.5rem;
+  background: url("./goSearch.png") center top no-repeat;
+  background-size:1.1rem 1.1rem; 
+}
+.goCate{
+  padding-top: 1.5rem;
+  background: url("./goCate.png") center top no-repeat;
+  background-size:1.1rem 1.1rem; 
+}
+.goBuyCar{
+  padding-top: 1.5rem;
+  background: url("./goBuyCar.png") center top no-repeat;
+  background-size:1.1rem 1.1rem; 
+}
+.allPro{
+  width:100%;
+  height:2.45rem;
+  margin-top:0.5rem;
+  background:#fff;
+  font-size:0.7rem;
+  padding-right:0.9rem;
+}
+.allProW{
+  display: inline-block;
+  width:100%;
+  height:100%;
+  padding-left:0.9rem;
+  line-height: 2.45rem;
+  background: url("./All.png") right center no-repeat;
+  background-size:0.4rem 0.8rem;
+}
+.cateCon{
+  width:100%;
+  margin-top:0.45rem;
+  background: #fff;
+}
+.cateM{
+width:100%;
+height:100%;
+}
+.cateTit{
+  width:100%;
+  height:2.5rem;
+  line-height: 2.5rem;
+  padding:0 1.35rem 0 0.9rem;
+  font-size: 0.7rem;
+}
+.cateTit h3{
+  float: left;
+}
+.cateTit a{
+  float: right;
+  color:#c7c7c7;
+}
+.cateSec{
+  float: left;
+  width:100%;
+  height:100%;
+}
+.cateSec li{
+  float: left;
+  width:49%;
+  height:2.45rem;
+  padding-left:0.9rem;
+  margin-right:1%;
+  margin-bottom: 0.25rem;
+  background:#f3f3f3;
+  line-height: 2.45rem;
+  font-size:0.6rem;
+}
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}

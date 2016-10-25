@@ -1,0 +1,32 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+a{
+  color: #000;
+}
+i,em{ font-style:normal;}
+b,strong{ 
+  font-weight:normal;
+}
+.mContainer{
+  width: 100%;
+}
+.mContainer i{
+   font-style:normal;
+}
+.container{
+  width:100%;
+  color:#444;
+}
+
+.orderPayCon{
+  padding-top:0.4rem;
+}
+.hiddenBox{
+  display: none;
+}
+.font {
+  width: 100%;
+  text-align: center;
+  margin-top: 30%;
+}

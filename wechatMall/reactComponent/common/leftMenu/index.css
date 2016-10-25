@@ -1,0 +1,90 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+.myMenuContainer{
+  height: 100%;
+  width: 100%;
+  border-radius: 0px 10px 10px 0px;
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */ 
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+  flex-direction:column;
+  background: url("./img/bg01.jpg");
+  background-size: 100% 100%;
+}
+.myMCItem{
+  flex-grow: 1;
+  position: relative;
+  border-bottom:1px solid #999;
+}
+.myMCItem1,.myMCItem1 .itemBg,.myMCItem1 .itemContent{
+  border-radius: 0px 10px 0px 0px;
+}
+.myMCItem2{
+}
+.myMCItem3{
+}
+.myMCItem4,.myMCItem4 .itemBg,.myMCItem4 .itemContent{
+  border-radius: 0px 0px 10px 0px;
+  border-bottom:0px;
+}
+.itemBg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+}
+.itemContent{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */ 
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+  flex-direction:column;
+  justify-content:center;
+  text-align: center;
+  align-items:center;
+}
+.itemContentImg{
+  width: 60px;
+  height: 60px;
+  box-shadow: 0px 0px 12px #fff;
+  border-radius: 50%;
+}
+.itemContentH1{
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+.carContainer{
+  position: relative;
+}
+.carNum{
+  font-style: normal;
+  color: #fff;
+  background: #5c5b50;
+  position: absolute;
+  right: -6px;
+  top: -6px;
+  border-radius: 50%;
+  padding: 3px;
+  border:2px solid #fff;
+  font-size: 12px;
+  width: 28px;
+  height: 28px;
+  line-height: 18px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

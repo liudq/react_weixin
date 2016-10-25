@@ -1,0 +1,189 @@
+.registerSuccess {
+    background-image: url("./1.png");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.registerSuccess p {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10.5rem;
+}
+.registerSuccess i {
+  font-size: 1.4rem;
+  color: #fff;
+  font-style: normal;
+}
+.registerSuccess img {
+  width: 6.5rem;
+  height: 6.5rem;
+  margin:0px auto;
+  margin-top: 0.1rem;
+}
+.fontDiv {
+  width: 9.25rem;
+  color: #fff;
+  font-size: 0.7rem;
+  text-align: left;
+  margin:0px auto;
+  margin-top: 0.3rem;
+  line-height: 0.8rem;
+}
+.button {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #ff8901;
+  border-radius: 0.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  margin:0px auto;
+  margin-top: 2rem;
+}
+.registerSuccess .bottomFont {
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #fff;
+  margin-top: 0.6rem;
+}
+/* 更改开始 */
+.content {
+ width: 100%;
+ height: 100%;
+}
+.registTitle {
+  width: 100%;
+  height: 2.2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.registContent {
+  width: 100%;
+
+}
+.registLogo {
+  width: 100%;
+  text-align: center;
+}
+.registLogo img {
+  width: 100%;
+}
+.registSection {
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 1.6rem;
+  font-weight: 300;
+  color: #000;
+}
+.sec2Img {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 0.5rem;
+}
+.sec3 {
+  width: 100%;
+  margin-top: 1.4rem;
+  text-align: center;
+}
+.sec3 img {
+  width: 6rem;
+}
+.sec4 {
+  width: 100%;
+  padding:0px 1.75rem;
+  margin-top: 1.25rem;
+}
+.sec4 p {
+  background-color: #f8f8f8;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #000;
+}
+.sec4 {
+  width: 100%;
+}
+.iosDown {
+  float: left;
+  border:1px solid #acacac;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  width: 6.6rem;
+  text-align: center;
+  color: #000;
+}
+.iosDown img {
+  width: 1rem;
+  margin-right: 0.3rem;
+  margin-top: -0.3rem;
+}
+.iosDown i {
+  font-style: normal;
+}
+.clear {
+  clear: both;
+}
+.androidDown {
+  float: right;
+  border:1px solid #acacac;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  width: 6.6rem;
+  text-align: center;
+  color: #000;
+}
+.androidDown img {
+  width: 1rem;
+  margin-right: 0.3rem;
+  margin-top: -0.3rem;
+}
+.androidDown i {
+  font-style: normal;
+}
+/* 更改结束 */
+/* 安卓下载开始 */
+.background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.backgroundTop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: right;
+}
+.backgroundTop img {
+  width: 50%;
+  margin-right: 1rem;
+}
+.more {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.open {
+  width: 8rem;
+}
+.backgroundTop p {
+  text-align: center;
+  color: #fff;
+  margin-top: 3rem;
+}
+.androidnone {
+  display: none;
+}
+/* 安卓下载结束 */

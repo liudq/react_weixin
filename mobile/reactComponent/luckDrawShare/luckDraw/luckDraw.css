@@ -1,0 +1,853 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+.content {
+  width: 100%;
+  position: relative;
+}
+.title {
+  width: 100%;
+  line-height: 2.2rem;
+  background-color: #f8c300;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+  position: relative;
+}
+.backCss {
+  float: left;
+  padding:0rem 0.5rem;
+  margin-top: 0.5rem;
+  position: absolute;
+  left: 0rem;
+  top:0rem;
+}
+.backImg {
+  width: 0.6rem;
+  float: left;
+}
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.titleImg {
+  width: 100%;
+}
+.draw {
+  position: relative;
+}
+.singleCard {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 5;
+
+  transform:translateZ(-500px);
+  -ms-transform:translateZ(-500px);   /* IE 9 */
+  -moz-transform:translateZ(-500px);  /* Firefox */
+  -webkit-transform:translateZ(-500px); /* Safari 和 Chrome */
+  -o-transform:translateZ(-500px);
+}
+.singleCard5 {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  cursor: pointer;
+  top: 35%;
+  left: 35%;
+  z-index: 9;
+}
+.singleCard.fingleFront {
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );   /* Internet Explorer */
+}
+.singleCard div {
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden; /* Chrome 和 Safari */
+  -moz-backface-visibility:hidden;  /* Firefox */
+  -ms-backface-visibility:hidden;   /* Internet Explorer */
+}
+.cardPozation1 {
+  top:2.5%;
+  left: 2.5%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.cardPozation2 {
+  top: 2.5%;
+  left: 35%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.cardPozation3 {
+  top: 2.5%;
+  left: 67.5%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.cardPozation4 {
+  top: 35%;
+  left: 2.5%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.cardPozation6 {
+  top: 35%;
+  left: 67.5%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.cardPozation7 {
+  top: 67.5%;
+  left: 2.5%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.cardPozation8 {
+  top: 67.5%;
+  left: 35%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.cardPozation9 {
+  top: 67.5%;
+  left: 67.5%;
+  perspective: 1000;
+  transition: top 0.5s,left 0.5s,transform 0.5s; /*过渡*/
+  transform-style: preserve-3d;/*子元素保留期3d位置*/
+
+  -moz-perspective: 1000; /* Firefox 4 */
+  -webkit-perspective: 1000; /* Safari 和 Chrome */
+  -o-perspective: 1000; /* Opera */
+  -ms-perspective: 1000;  /* Internet Explorer */
+
+  -moz-transition: top 0.5s,left 0.5s,transform 0.5s; /* Firefox 4 */
+  -webkit-transition: top 0.5s,left 0.5s,transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: top 0.5s,left 0.5s,transform 0.5s; /* Opera */
+  -ms-transition: top 0.5s,left 0.5s,transform 0.5s;  /* Internet Explorer */
+
+  -moz-transform-style: preserve-3d; /* Firefox 4 */
+  -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+  -o-transform-style: preserve-3d; /* Opera */
+  -ms-transform-style: preserve-3d;  /* Internet Explorer */
+}
+.background1 {
+  height: 100%;
+  width: 100%;
+  background: url("./b1.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 1;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.background2 {
+  height: 100%;
+  width: 100%;
+  background: url("./b2.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 3;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.background3 {
+  height: 100%;
+  width: 100%;
+  background: url("./b3.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 3;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.background4 {
+  height: 100%;
+  width: 100%;
+  background: url("./b4.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 3;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.background6 {
+  height: 100%;
+  width: 100%;
+  background: url("./b6.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 3;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.background7 {
+  height: 100%;
+  width: 100%;
+  background: url("./b7.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 3;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.background8 {
+  height: 100%;
+  width: 100%;
+  background: url("./b8.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 3;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.background9 {
+  height: 100%;
+  width: 100%;
+  background: url("./b9.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 3;
+  position: absolute;
+  transform: rotateY( 180deg ) rotateZ( 90deg );
+
+  -moz-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Firefox 4 */
+  -webkit-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Safari 和 Chrome */
+  -o-transform: rotateY( 180deg ) rotateZ( 90deg ); /* Opera */
+  -ms-transform: rotateY( 180deg ) rotateZ( 90deg );  /* Internet Explorer */
+}
+.front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+.card1 {
+  background: url("./1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.card2 {
+  background: url("./2.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.card3 {
+  background-image: url("./3.png");
+  background-size: 100% 100%;
+}
+.card4 {
+  background-image: url("./4.png");
+  background-size: 100% 100%;
+}
+/* 中间的开始按钮 */
+.card5 {
+  background-image: url("./5.png");
+  background-size: 100% 100%;
+}
+.card5_off {
+  background-image: url("./5_off.png");
+  background-size: 100% 100%;
+}
+.card5_nice {
+  background-image: url("./5_nice.png");
+  background-size: 100% 100%;
+}
+.card5_no {
+  background-image: url("./5_no.png");
+  background-size: 100% 100%;
+}
+.card6 {
+  background-image: url("./6.png");
+  background-size: 100% 100%;
+}
+.card7 {
+  background-image: url("./7.png");
+  background-size: 100% 100%;
+}
+.card8 {
+  background-image: url("./8.png");
+  background-size: 100% 100%;
+}
+.card9 {
+  background-image: url("./9.png");
+  background-size: 100% 100%;
+}
+.ncard1 {
+  background: url("./n1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.ncard2 {
+  background: url("./n2.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.ncard3 {
+  background-image: url("./n3.png");
+  background-size: 100% 100%;
+}
+.ncard4 {
+  background-image: url("./n4.png");
+  background-size: 100% 100%;
+}
+.ncard5 {
+  background-image: url("./n5.png");
+  background-size: 100% 100%;
+}
+.ncard6 {
+  background-image: url("./n6.png");
+  background-size: 100% 100%;
+}
+.ncard7 {
+  background-image: url("./n7.png");
+  background-size: 100% 100%;
+}
+.ncard8 {
+  background-image: url("./n8.png");
+  background-size: 100% 100%;
+}
+.ncard9 {
+  background-image: url("./n9.png");
+  background-size: 100% 100%;
+}
+.singleCard img {
+  width: 100%;
+}
+.shuffleCard {
+  top: 35%;
+  left: 35%;
+}
+/* 提示框开始 */
+.bg {
+  background-color: #000;
+  opacity: 0.5;
+  position: fixed;
+  top:0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  
+  transform:translateZ(1500px);
+  -ms-transform:translateZ(1500px);   /* IE 9 */
+  -moz-transform:translateZ(1500px);  /* Firefox */
+  -webkit-transform:translateZ(1500px); /* Safari 和 Chrome */
+  -o-transform:translateZ(1500px);
+}
+.payWay {
+  width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 10%;
+  background-color: #fff;
+  z-index: 11;
+  border-radius: 0.6rem;
+  margin-top: -4.5rem;
+
+  transform:translateZ(1600px);
+  -ms-transform:translateZ(1600px);   /* IE 9 */
+  -moz-transform:translateZ(1600px);  /* Firefox */
+  -webkit-transform:translateZ(1600px); /* Safari 和 Chrome */
+  -o-transform:translateZ(1600px);
+}
+.payWayTitle {
+  line-height: 3.15rem;
+  text-align: center;
+  color: #000;
+  font-size: 0.85rem;
+}
+.wayDiv {
+  width: 100%;
+  padding:0rem 0.75rem;
+  padding-bottom: 0.85rem;
+}
+.integral {
+  float: left;
+  width: 47%;
+  line-height: 2.5rem;
+  font-size: 0.6rem;
+  color: #000;
+  border-radius: 0.4rem;
+  border:1px solid #cacaca;
+  text-align: center;
+}
+.integral2 {
+  float: left;
+  width: 32%;
+  line-height: 2.5rem;
+  font-size: 0.6rem;
+  color: #000;
+  border-radius: 0.4rem;
+  border:1px solid #cacaca;
+  text-align: center;
+  margin-right: 1%;
+}
+.huaBi {
+  float: right;
+  width: 47%;
+  line-height: 2.5rem;
+  font-size: 0.6rem;
+  color: #000;
+  border-radius: 0.4rem;
+  border:1px solid #cacaca;
+  text-align: center;
+}
+.huaBi2 {
+  float: left;
+  width: 32%;
+  line-height: 2.5rem;
+  font-size: 0.6rem;
+  color: #000;
+  border-radius: 0.4rem;
+  border:1px solid #cacaca;
+  text-align: center;
+  margin-right: 1%;
+}
+.free {
+  float: left;
+  width: 32%;
+  line-height: 2.5rem;
+  font-size: 0.6rem;
+  color: #000;
+  border-radius: 0.4rem;
+  border:1px solid #cacaca;
+  text-align: center;
+  display: none;
+}
+.free2 {
+  float: left;
+  width: 32%;
+  line-height: 2.5rem;
+  font-size: 0.6rem;
+  color: #000;
+  border-radius: 0.4rem;
+  border:1px solid #cacaca;
+  text-align: center;
+}
+.quit {
+  width: 100%;
+  border-top: 1px solid #cacaca;
+  text-align: center;
+  line-height: 2.5rem;
+  color: #000;
+  font-size: 0.65rem;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+/* 提示框结束 */
+
+/* 活动规则开始 */
+.rules {
+  position: absolute;
+  top: 5rem;
+  right: 0rem;
+  background-color: #000;
+  padding:0.5rem;
+  color: #fff;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+.rulesContent {
+  width: 100%;
+  background-color: #feffef;
+  position: fixed;
+  top: 5rem;
+  left: 0rem;
+  z-index: 10;
+}
+.rulesTitle {
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  color: #000;
+  font-size: 0.75rem;
+}
+.rulesCon {
+  width: 100%;
+  padding:0rem 0.4rem;
+}
+.rulesCon p {
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 0.6rem;
+}
+/* 活动规则结束 */
+
+.rechangeAlert {
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    background-color: #fff;
+    z-index: 12;
+    border-radius: 0.6rem;
+    padding:0.75rem;
+    margin-top: -5rem;
+
+    transform:translateZ(1700px);
+  -ms-transform:translateZ(1700px);   /* IE 9 */
+  -moz-transform:translateZ(1700px);  /* Firefox */
+  -webkit-transform:translateZ(1700px); /* Safari 和 Chrome */
+  -o-transform:translateZ(1700px);
+}
+.sectionTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #000;
+  margin-top: 0.5rem;
+}
+.section2 {
+  width: 100%;
+  font-size: 0.8rem;
+  color: #000;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+.section3 {
+  width: 100%;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.sec3Left {
+  float: left;
+  width: 45%;
+  height: 2.75rem;
+  background-color: #f8c300;
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 2.75rem;
+  font-size: 0.8rem;
+  color: #000;
+}
+.sec3Right {
+  float: right;
+  width: 45%;
+  height: 2.75rem;
+  background-color: #f8c300;
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 2.75rem;
+  font-size: 0.8rem;
+  color: #000;
+}
+.list {
+  position: absolute;
+  bottom: 1rem;
+  left: 25%;
+  height: 1.5rem;
+  width: 53%;
+  overflow: hidden;
+}
+.listTitle {
+  float: left;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.5rem;
+  color: #000;
+  width: 27%;
+  text-align: center;
+}
+.nameList {
+  float: left;
+  width: 70%;
+  position: relative;
+  height: 1rem;
+  text-align: center;
+}
+.rotateM01 {
+  width:100%;
+  font-size: 0.5rem;
+  z-index: 5;
+  line-height: 1rem;
+
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari 和 Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+.rotateM02 {
+  height: 0.5rem;
+  width:100%;
+  font-size: 0.3rem;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  z-index: 5;
+  background-color: #fff;
+  color: #d9d9d9;
+
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari 和 Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+.rotateMLast {
+  height: 0.5rem;
+  font-size: 0.3rem;
+  width:100%;
+  line-height: 0.5rem;
+  position: absolute;
+  top: 0rem;
+  left: 0.5rem;
+  z-index: 5;
+  background-color: #fff;
+  color: #d9d9d9;
+
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari 和 Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+.rotateMHidden {
+  height: 0.5rem;
+  font-size: 0.3rem;
+  width:100%;
+  line-height: 0.5rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 0.5rem;
+  z-index: 2;
+  background-color: #fff;
+  color: #d9d9d9;
+
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari 和 Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+.phoneList {
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: 0.5rem;
+  font-style: normal;
+}
+.typeList {
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-style: normal;
+}
+.rotateM02 .typeList {
+  display: none;
+}
+.rotateMLast .typeList {
+  display: none;
+}
+.rotateMHidden .typeList {
+  display: none;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}
+.shareBaobao {
+  position: absolute;
+  right: 0px;
+  top:0px;
+  padding:0px 0.5rem;
+}
+.shareCss {
+  width: 1rem;
+}
+.list2 {
+  position: absolute;
+  bottom: 0rem;
+  left: 25%;
+  height: 1rem;
+  width: 55%;
+  overflow: hidden;
+  background-color: #f8c300;
+}
+.tishi {
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  height: 3rem;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: 19;
+}
+.tishiText {
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  height: 3rem;
+  color: #fff;
+  line-height: 3rem;
+  padding:0rem 1rem;
+  z-index: 20;
+}
+.lijitiyan {
+  display: inline-block;
+  background-color: #f8c300;
+  height: 2rem;
+  line-height: 2rem;
+  color: #fff;
+  padding:0rem 0.5rem;
+  float: right;
+  margin-top: 0.5rem;
+}
+.tishiText img {
+  width: 2rem;
+  float: left;
+  margin-top: 0.5rem;
+}
+.tishiNeirong {
+  width: 51%;
+  float: left;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}

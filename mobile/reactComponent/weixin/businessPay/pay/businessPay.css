@@ -1,0 +1,123 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.pay {
+  width: 100%;
+}
+.payName {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-bottom: 1px solid #c4c4c4;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #4a4a4a;
+}
+.payNameLeft {
+  float: left;
+}
+.payNameRight {
+  float: left;
+}
+.content {
+  width: 100%;
+  padding:0rem 1rem;
+  border-bottom: 1px solid #c4c4c4;
+}
+.introduce {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 0.65rem;
+  color: #4a4a4a;
+}
+.introduceContent {
+  width: 100%;
+  font-size: 0.65rem;
+  color: #4a4a4a;
+  line-height: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+.money {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-bottom: 1px solid #c4c4c4;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #c60000;
+}
+.paymentInformation {
+  width: 100%;
+  background-color: #ebebeb;
+  padding-bottom: 0.5rem;
+}
+.paymentInformationTitle {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #000000;
+  background-color: #ebebeb;
+}
+.userName {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #7e7e7e;
+  background-color: #fff;
+}
+.name {
+  line-height: 2.5rem;
+  float: left;
+}
+.userName img {
+  float: left;
+  width: 0.9rem;
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+}
+.userName input {
+  border:0px;
+  line-height: 2.5rem;
+  padding-left: 0.75rem;
+}
+.userPhone {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #7e7e7e;
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+.userPhone img {
+  float: left;
+  width: 0.9rem;
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+}
+.userPhone input {
+  border:0px;
+  line-height: 2.5rem;
+  padding-left: 0.75rem;
+}
+.submit {
+  width: 100%;
+  padding:0px 1rem;
+  margin-top: 1.25rem;
+}
+.submitButton {
+  width: 100%;
+  background-color: #f8c300;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  text-align: center;
+  color: #000;
+  font-size: 0.85rem;
+  border-radius: 0.3rem;
+}

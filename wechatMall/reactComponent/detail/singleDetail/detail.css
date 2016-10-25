@@ -1,0 +1,825 @@
+.clear{
+    clear: both;
+}
+.titleAll {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+}
+.title {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+.title2 {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  color: #fff;
+}
+.title2Content {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+.title2Content a {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #444444;
+}
+.title2Content img {
+  height: 1.1rem;
+  width: 1.1rem;
+}
+.title2Content p {
+  margin-top: 0.5rem;
+}
+.title2Con1 {
+  width: 25%;
+  float: left;
+  padding: 0.55rem 0px;
+}
+.title2Con2 {
+  width: 25%;
+  float: left;
+  padding: 0.55rem 0px;
+}
+.title2Con3 {
+  width: 25%;
+  float: left;
+  padding: 0.55rem 0px;
+}
+.title2Con4 {
+  width: 25%;
+  float: left;
+  padding: 0.55rem 0px;
+}
+.backImg {
+    height: 0.7rem;
+    width: 0.4rem;
+    margin-top: 0.8rem;
+    margin-left: 0.6rem;
+}
+.titleLeft {
+    width: 15%;
+    float: left;
+    padding-bottom: 0.5rem;
+}
+.titleCenter {
+    float: right;
+    width: 70%;
+    font-size: 0.8rem;
+}
+.titleRight {
+    float: right;
+    width: 15%;
+    height: 2.2rem;
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 0.95rem;
+    padding-top: 0.4rem;
+}
+.titleRight img {
+  width: 0.4rem;
+  height: 0.7rem;
+}
+.titleCenter div {
+    float: left;
+}
+.shangPin {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-bottom: 0.1rem solid #fff;
+    width: 25%;
+    text-align: center;
+    color: #1c1c1c;
+}
+.shangPin2 {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-bottom: 0.1rem solid #fff;
+    width: 33.33%;
+    text-align: center;
+    color: #1c1c1c;
+}
+.active {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-bottom: 0.1rem solid #f8c300;
+    text-align: center;
+    color: #f8c300;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.goodImg {
+  width: 100%;
+}
+.mmhSwiper {
+  position: relative;
+  top: 2.2rem;
+}
+.content {
+  margin-top: 2.4rem;
+}
+.content1 {
+  margin: 0px 0.45rem 0.5rem 0.45rem;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+.top1 {
+  width: 100%;
+}
+.top1Left {
+  width: 90%;
+  float: left;
+  padding-right: 0.6rem;
+  font-size: 0.8rem;
+}
+.top1Right {
+  width: 10%;
+  float: right;
+  text-align: center;
+  border-left: 1px solid #888888;
+  padding-left: 0.2rem;
+}
+.goodImg13 {
+  height: 0.9rem;
+  width: 0.8rem;
+  text-align: center;
+}
+.share {
+  font-size: 0.45rem;
+  text-align: center;
+  color: #241613;
+}
+.top2 {
+  width: 100%;
+}
+.top2Left {
+  float: left;
+  color: #de107c;
+  font-size: 0.65rem;
+  margin-top: 0.24rem;
+}
+.top2Content {
+  float: left;
+  color: #de107c;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+.top2Right {
+  float: left;
+  color: #de107c;
+}
+.priceF {
+  font-size: 0.55rem;
+  color: #898989;
+  margin-top: 0.75rem;
+}
+.price {
+  text-decoration:line-through;
+  font-style: normal;
+  font-size: 0.55rem;
+}
+.kuaiDi {
+  margin-top: 0.75rem;
+  color: #898989;
+  font-size: 0.55rem;
+}
+.kuaiDiLeft {
+  float: left;
+}
+.kuaiDiRight {
+  float: left;
+}
+.topBottom {
+  margin-top: 0.75rem;
+  color: #898989;
+  font-size: 0.55rem;
+  width: 100%;
+}
+.topBottomLeft {
+  float: left;
+}
+.topBottomContent {
+  float: left;
+  margin-left: 3.7rem;
+}
+.topBottomRight {
+  float: right;
+}
+.goodImg17 {
+  width: 0.65rem;
+  height: 0.65rem;
+  margin-right: 0.2rem;
+}
+.content2 {
+  margin: 0px 0.45rem 0.5rem 0.45rem;
+  height: 2.15rem;
+  background-color: #fff;
+  padding-left: 0.5rem;
+}
+.parameter {
+  float: left;
+  height: 2.15rem;
+  line-height: 2.15rem;
+  font-size: 0.65rem;
+  color: #261815;
+}
+.goodImg21 {
+  float: right;
+  height: 0.8rem;
+  width: 0.4rem;
+  margin-top: 0.7rem;
+  margin-right: 0.9rem;
+}
+.yiXuan {
+  color: #da137a;
+  font-size: 0.55rem;
+  font-style: normal;
+  margin-right: 0.65rem;
+  float: left;
+}
+.num {
+  margin-left: 0.85rem;
+  font-style: normal;
+}
+.content3 {
+  margin: 0px 0.45rem 0.5rem 0.45rem;
+  padding: 0.75rem 0.55rem;
+  background-color: #fff;
+}
+.evaluate {
+  font-size: 0.65rem;
+  color: #221816;
+}
+.eve2 {
+  margin-top: 0.75rem;
+  font-size: 0.55rem;
+}
+.eve2 img {
+  height: 1.1rem;
+  width: 1.1rem;
+  margin-right: 0.5rem;
+}
+.eve2Date {
+  font-size: 0.3rem;
+  font-style: normal;
+  color: #888888;
+  margin-left: 0.35rem;
+}
+.eve2P {
+  font-size: 0.55rem;
+  color: #231814;
+  margin-top: 0.55rem;
+}
+.eve3 {
+  width: 100%;
+  margin-top: 1.05rem;
+  text-align: center;
+}
+.eve3All {
+  border:1px solid #dc137b;
+  width: 7rem;
+  height: 1.35rem;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 0.4rem;
+  font-size: 0.5rem;
+  line-height: 1.3rem;
+  color: #dd127d;
+}
+.content4 {
+  margin: 0.7px 0.5rem 1.1rem 0.55rem;
+  padding: 0.75rem 0.55rem;
+  background-color: #fff;
+}
+.con4Img28 {
+  height: 2.35rem;
+  width: 2.35rem;
+  float: left;
+}
+.con4Title {
+  font-style: normal;
+  font-size: 0.6rem;
+  color: #221715;
+  margin-left: 0.7rem;
+  margin-top: 0.5rem;
+  float: left;
+}
+.content4Title {
+  width: 100%;
+}
+.cont4Cont {
+  width: 100%;
+  margin-top: 0.7rem;
+}
+.section1 {
+  width: 23%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid red;
+  padding: 0.4rem 0px;
+}
+.section2 {
+  width: 21%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid red;
+  padding: 0.4rem 0px;
+}
+.section3 {
+  width: 23%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid red;
+  padding: 0.4rem 0px;
+}
+.section4 {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.guiGe {
+  float: left;
+  font-style: normal;
+  padding: 0px 0.2rem;
+}
+.section2P1 {
+  font-size: 0.5rem;
+  color: #de117a;
+  height: 0.8rem;
+}
+.section2P2 {
+  font-size: 0.6rem;
+  color: #888888;
+}
+.sec4F {
+  font-size: 0.55rem;
+}
+.section4 img {
+  height: 0.65rem;
+  width: 0.65rem;
+  margin-top: -0.15rem;
+}
+.section5 {
+  width: 100%;
+  margin-top: 0.75rem;
+}
+.section5Left {
+  float: left;
+  border: 1px solid #dc137b;
+  padding: 0.45rem 0.8rem;
+  border-radius: 0.15rem;
+  font-size: 0.55rem;
+  color: #dc117a;
+  margin-left: 2.75rem;
+}
+.section5Right {
+  float: right;
+  border: 1px solid #dc137b;
+  border-radius: 0.15rem;
+  font-size: 0.55rem;
+  color: #dc117a;
+  padding: 0.45rem 0.8rem;
+  margin-right: 2.5rem;
+}
+.content5 {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0px;
+  height: 2.45rem;
+}
+.con5Left {
+  width: 50%;
+  float: left;
+  border-top:1px solid #cfcfcf;
+}
+.con5Right {
+  width: 25%;
+  float: left;
+  background-color: #f8c300;
+  height: 2.45rem;
+  line-height: 2.45rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #fff;
+}
+.con5Right2 {
+  width: 25%;
+  float: left;
+  background-color: #f8c300;
+  height: 2.45rem;
+  line-height: 2.45rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #fff;
+  border-left:1px solid #ffe277;
+}
+.content6 {
+  height: 2.45rem;
+}
+.bottom1 {
+  float: left;
+  width: 33%;
+  text-align: center;
+  height: 2.45rem;
+  padding-top: 0.2rem;
+}
+.bottom2 {
+  float: left;
+  width: 33%;
+  text-align: center;
+  height: 2.45rem;
+  padding-top: 0.2rem;
+}
+.bottom3 {
+  float: left;
+  width: 33%;
+  line-height: 2.45rem;
+  height: 2.45rem;
+  position: relative;
+  text-align: center;
+}
+.con5Left img {
+  height: 
+}
+.goodImg44 {
+  height: 0.8rem;
+  width: 0.85rem;
+  margin-top: 0.3rem;
+}
+.botP {
+  font-size: 0.55rem;
+  color: #878787;
+  display: block;
+}
+.goodImg49 {
+  height: 1.1rem;
+}
+.detailSec {
+  margin-top: 2.3rem;
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+.commentSec {
+  margin-top: 2.3rem;
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+  padding: 0px 0.5rem;
+  border-top: 1px solid #c7c7c7;
+}
+.background {
+  background-color: #e5e5e5;
+}
+.proParSec1Left {
+  float: left;
+  width: 40%;
+  text-align: left;
+  padding-left: 0.9rem;
+  font-size: 0.6rem;
+  color: #888888;
+}
+.proParSec1Right {
+  float: left;
+  width: 60%;
+  text-align: left;
+  font-size: 0.6rem;
+  color: #888888;
+}
+.detailSec img {
+  width: 100%;
+}
+.shopCarNum {
+  height: 0.75rem;
+  width: 0.75rem;
+  background-color: #c60000;
+  border-radius: 0.375rem;
+  position: absolute;
+  top: 0.4rem;
+  left: 2.1rem;
+  color: #fff;
+  font-size: 0.55rem;
+  line-height: 0.75rem;
+  text-align: center;
+}
+.proParBac {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: fixed;
+  z-index: 3;
+  opacity: 0.6;
+  top: 0px;
+  left: 0px;
+}
+.proParCon {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 4;
+  bottom: 0px;
+  left: 0px;
+  height: 19rem;
+  overflow: auto;
+}
+.proParSec {
+  width: 100%;
+}
+.proParSec1 {
+  width: 100%;
+  height: 2.37rem;
+  line-height: 2.37rem;
+  border-bottom: 1px solid #c7c7c7;
+  text-align: center;
+  font-size: 0.65rem;
+  color: #231a15;
+}
+.proParQuite {
+  width: 100%;
+  text-align: center;
+  background-color: #f8c300;
+  font-size: 0.8rem;
+  height: 2.37rem;
+  line-height: 2.37rem;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  color: #fff;
+}
+.xianshiImg03 {
+  height: 0.6rem;
+  width: 2.2rem;
+}
+.comTitle {
+  height: 1.4rem;
+  width: 5.7rem;
+  background-color: #fff;
+  border-radius: 0.15rem;
+  font-size: 0.5rem;
+  line-height: 1.4rem;
+  text-align: center;
+  margin-top: 0.4rem;
+  float: left;
+}
+.comSingle {
+  padding: 0.75rem 0.6rem 1rem 0px;
+  width: 100%;
+  border-bottom: 1px solid #c7c7c7;
+}
+.comSingleSec1 {
+  font-size: 0.4rem;
+  color: #888888;
+}
+.comSingleSec2 {
+  font-size: 0.4rem;
+  color: #888888;
+  margin-top: 0.45rem;
+}
+.comSingleHeader {
+  height: 1.35rem;
+  width: 1.35rem;
+  border-radius: 0.675rem;
+  float: left;
+  line-height: 1.35rem;
+}
+.pinglunImg03 {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.comName {
+  font-style: normal;
+  line-height: 1.35rem;
+  margin-left: 0.4rem;
+}
+.comSinSec3 {
+  margin-top: 0.75rem;
+  font-size: 0.6rem;
+  color: #231917;
+}
+.spe {
+  position: fixed;
+  height: 26rem;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0px;
+  left: 0px;
+  z-index: 3;
+  padding: 0px 0.45rem;
+}
+.speSce1 {
+  height: 5.6rem;
+  border-bottom: 1px solid #f8f8f8;
+}
+.speSec1Img {
+  height: 5.8rem;
+  width: 5.8rem;
+}
+.speSec1Left {
+  margin-top: -0.9rem;
+  float: left;
+}
+.speSec1Centent {
+  float: left;
+  padding-left: 0.8rem;
+}
+.speCon1 {
+  font-size: 0.9rem;
+  color: #c60000;
+  margin-top: 1.5rem;
+}
+.speCon2 {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: #231816;
+}
+.speSce1Quit {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.93rem;
+}
+.guanbiImg03 {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.speSce2 {
+  padding: 0.625rem 0.5rem;
+  border-bottom: 1px solid #c7c7c7;
+}
+.speSec2Top {
+  color: #000;
+  font-size: 0.8rem;
+}
+.speSec2Top2 {
+  width: 100%;
+}
+.speSec2Con {
+  padding: 0.55rem;
+  color: #231816;
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  margin-top: 0.6rem;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-right: 0.5rem;
+}
+.speSec2ConAct {
+  padding: 0.55rem;
+  color: #fff;
+  background-color: #f8c300;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  margin-top: 0.6rem;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-right: 0.5rem;
+}
+.speSce3 {
+  height: 3.15rem;
+  line-height: 3.15rem;
+  padding: 0px 0.6rem;
+  border-bottom: 1px solid #f8f8f8;
+}
+.speSce3Left {
+  font-size: 0.8rem;
+  color: #000;
+  float: left;
+}
+.speSce4 {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2.45rem;
+  line-height: 2.45rem;
+  text-align: center;
+  background-color: #fed032;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.speSce4Shopping {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2.45rem;
+  line-height: 2.45rem;
+  text-align: center;
+  background-color: #f8c300;
+  color: #fff;
+}
+.speAddNum {
+  float: right;
+  margin-top: 0.7rem;
+}
+.speAddNumJia {
+  float: right;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #f8c300;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+.speAddNumCon {
+  float: right;
+  height: 1.5rem;
+  width: 1.5rem;
+  border:1px solid #e5e5e5;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #000;
+  font-size: 0.8rem;
+}
+.speAddNumJian {
+  float: right;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #f8c300;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+}
+/* 评论began */
+.pingLun {
+  float: left;
+  font-size: 0.5rem;
+  height: 1.4rem;
+  width: 3rem;
+  border-radius: 0.15rem;
+  line-height: 1.4rem;
+  text-align: center;
+  color: #000;
+  margin-top: 0.4rem;
+  background-color: #fff;
+}
+.activePingLun {
+  background-color: #dd127b;
+  color: #fff;
+}
+
+/* 评论end */
+.speAddNum img {
+  width: 1rem;
+  height:1rem;
+  margin-top: -0.25rem;
+}
+.titleBackground {
+  background-color: #000;
+  opacity: 0.7;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+}
+.loagingImg {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  z-index: 101;
+  margin-left: -24px;
+  margin-top: -24px;
+
+}
+.loadingMask {
+  position: fixed;
+  top:0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.2;
+  z-index: 100;
+}
+.explainCss {
+  width: 100%;
+  padding:0.5rem 0.5rem;
+  font-size: 0.55rem;
+  color: #000;
+  margin-bottom: 2.45rem;
+}
+.explainTitle {
+  width: 100%;
+  height: 2.2rem;
+}
+.explainCss p {
+  line-height: 30px;
+}
+.indent {
+  text-indent: 1rem;
+}

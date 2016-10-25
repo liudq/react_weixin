@@ -1,0 +1,126 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+a{
+  color: #000;
+}
+i,em{ font-style:normal;}
+b,strong{ 
+  font-weight:normal;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.container{
+  width: 100%;
+}
+.leftTabCon{
+  position: absolute;
+  top:0;left:0;
+  width:25%;
+  height:100%;
+  background: #f8f8f8;
+}
+.oneLevelCon{
+  width:100%;
+}
+.oneLevelCon li{
+  height:2.5rem;
+  line-height: 2.5rem;
+  font-size:0.75rem;
+  color:#565756;
+}
+.oneLevelCon .on{
+  background: #fff;
+  border-left: 2px solid #f8c300;
+  color:#f8c300;
+}
+.rightCon{
+  float: right;
+  width:75%;
+  padding:0.1rem;
+  overflow-y: auto;
+}
+.imgCon{
+  width:100%;
+  height:5rem;
+}
+.imgCon img{
+width:100%;
+height:100%;
+}
+.twoLevelCon{
+  margin-top:0.5rem;
+}
+.twoLevelCon{
+  
+}
+.twoLevelTit{
+  width:100%;
+  height:2rem;
+  padding:0 .2rem;
+}
+.twoLevelTit p{
+  width:25%;
+  height:1px;
+  margin-top:1rem;
+  background: #f8c300;
+}
+.threeLevelName{
+  float: left;
+  width:46%;
+  margin:0.5rem 0.25rem 0;
+  text-align: center;
+}
+.threeLevelName h2{
+  line-height: 1rem; 
+  background: #000;
+  border-radius: 3px;
+  color: #f8c300;
+  font-size:0.65rem;
+}
+.threeLevelCon{
+  width:100%;
+  padding-left:0.5rem;
+}
+.threeLevelCon li{
+  float: left;
+  width:30.3%;
+  height:6rem;
+  margin-right: 0.4rem;
+  margin-top:0.5rem;
+  padding:0.2rem;
+}
+.threeLevelCon li>a{
+  display: block;
+  width:100%;
+
+}
+.brandImgCon{
+  width:100%;
+  height:4rem;
+}
+.brandImgCon img{
+  width:100%;
+}
+.brandName{
+  width:100%;
+  padding:0 0.2rem;
+  line-height:1rem;
+  white-space:normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 0.6rem;
+  color:#777;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}

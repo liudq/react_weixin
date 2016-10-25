@@ -1,0 +1,278 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.sign {
+    width: 100%;
+}
+.banner {
+    width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  border-top:1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #000;
+  line-height: 2.5rem;
+}
+.introduce {
+  padding:0.8rem 1rem;
+  border-bottom: 1px solid #c4c4c4;
+}
+.intSec1 {
+  width: 100%;
+}
+.intSec1Left {
+  float: left;
+  font-size: 0.65rem;
+  color: #a4a4a4;
+}
+.intSec1Right {
+  float: right;
+  font-size: 0.65rem;
+  color: #a4a4a4;
+}
+.intSec2 {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+.section3 {
+  width: 100%;
+  border-bottom: 1px solid #c4c4c4;
+}
+.sec3Title {
+  width: 100%;
+  padding: 0rem 1rem;
+  font-size: 0.65rem;
+  color: #000;
+  line-height: 2.5rem;
+}
+.sec3Content {
+  padding:0rem 0.8rem;
+  width: 100%;
+}
+.sec3Content p {
+  color: #a4a4a4;
+  font-size: 0.65rem;
+  line-height: 1.1rem;
+}
+.sec3Phone {
+  width: 100%;
+}
+.sec3PhoneLeft {
+  float: left;
+  font-size: 0.65rem;
+  color: #a4a4a4;
+}
+
+.section4 {
+  width: 100%;
+  background-color: #ebebeb;
+}
+.sec4Title {
+  width: 100%;
+  padding: 0rem 1rem;
+  font-size: 0.65rem;
+  color: #000;
+  line-height: 2.5rem;
+  background-color: #fff;
+}
+.sec4Content {
+  width: 100%;
+  padding:0rem 1rem;
+  background-color: #fff;
+}
+.ordinaryCost {
+  width: 100%;
+  color: #a4a4a4;
+  font-size: 0.65rem;
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 0.5rem;
+}
+.sec4Intro {
+   width: 100%;
+   border-bottom: 1px solid #c4c4c4;
+   padding:0.5rem 0rem;
+}
+.ordinaryCostVip {
+  width: 100%;
+  color: #a4a4a4;
+  font-size: 0.65rem;
+  padding-bottom: 0.5rem;
+}
+.sec4VipContent {
+  width: 100%;
+  font-size: 0.65rem;
+  color: #a4a4a4;
+}
+.notes{
+  width: 100%;
+  font-size: 0.65rem;
+  color: #c60000;
+  line-height: 2.5rem;
+}
+.register {
+  width: 100%;
+  padding: 0rem 1rem;
+  font-size: 0.65rem;
+  color: #000;
+  line-height: 2.5rem;
+}
+.userName {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #7e7e7e;
+  background-color: #fff;
+}
+.name {
+  line-height: 2.5rem;
+  float: left;
+}
+.userName img {
+  float: left;
+  width: 0.9rem;
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+}
+.userName input {
+  border:0px;
+  line-height: 2.5rem;
+  padding-left: 0.75rem;
+}
+.userPhone {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding:0rem 1rem;
+  font-size: 0.65rem;
+  color: #7e7e7e;
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+.userPhone img {
+  float: left;
+  width: 0.9rem;
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+}
+.userPhone input {
+  border:0px;
+  line-height: 2.5rem;
+  padding-left: 0.75rem;
+}
+.registerCost {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  padding:0rem 1rem;
+  padding-bottom: 0.75rem;
+}
+.registerTitle {
+  border-bottom: 1px solid #c4c4c4;
+}
+.registerContent {
+  width: 100%;
+  padding:0rem 0.5rem;
+}
+.regConTitle {
+  width: 100%;
+}
+.feiyong {
+  float: left;
+  width: 55%;
+  line-height: 2.25rem;
+  color: #7e7e7e;
+  font-size: 0.65rem;
+  text-align: center;
+}
+.number {
+  float: right;
+  width: 30%;
+  line-height: 2.25rem;
+  color: #7e7e7e;
+  font-size: 0.65rem;
+  text-align: center;
+}
+.regSec1 {
+  width: 100%;
+  line-height: 1.5rem;
+}
+.regSec1Left {
+  width: 1rem;
+  border: 1px solid #818181;
+  border-radius: 0.5rem;
+  float: left;
+  height: 1rem;
+  margin-top: 0.3rem;
+}
+.regSec1Center {
+  font-size: 0.65rem;
+  color: #000;
+  margin-left: 0.5rem;
+  float: left;
+}
+.regSec1Right {
+  width: 30%;
+  float: right;
+}
+.jian {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #f8c300;
+  float: left;
+  text-align: center;
+}
+.num {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+  border-top:1px solid #e5e5e5;
+  float: left;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 0.65rem;
+}
+.add {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #000;
+  float: left;
+  color: #f8c300;
+  text-align: center;
+}
+.regSec1Vip {
+  margin-top: 0.75rem;
+}
+.submit {
+  width: 100%;
+  padding:0rem 0.5rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.submitButton {
+  background-color: #f8c300;
+  color: #000;
+  line-height: 2.2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.65rem;
+  border-radius: 0.3rem;
+}
+.checkDiv {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+  background-color: #f8c300;
+  margin-top: 0.15rem;
+  margin-left: 0.15rem;
+}
+.active {
+  border-color: #f8c300;
+}

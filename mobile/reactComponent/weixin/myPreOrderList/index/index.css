@@ -1,0 +1,179 @@
+.mContainer{
+  composes:mContainer from "../../../common/util/util.css";
+}
+.mRow{
+  composes:mRow from "../../../common/util/util.css";
+}
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+
+.commodityContainer{
+  padding: 0.5rem;
+}
+.commodityM{
+  width: 100%;
+  height: 8.45rem;
+  border:1px solid #e9e9e9;
+  padding-top: 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+.commodityMTop{
+  height: 6.5rem;
+  width: 100%;
+}
+.cMMessDate{
+  width: 100%;
+  height: 1.35rem;
+  line-height: 1.35rem;
+  border-top:1px solid #e9e9e9;
+  text-align: right;
+  font-size: 12px;
+  color: #aeaeae;
+  padding-right: 5px;
+}
+.cMImg{
+  float: left;
+  width: 33%;
+  border:1px solid #e9e9e9;
+  max-height: 100%;
+  margin-left: 2%;
+}
+.cMMess{
+  float: right;
+  width: 63%;
+  margin-left: 2%;
+  position: relative;
+  height: 100%;
+}
+.cMMessTitle{
+  position: absolute;
+  top: 5px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+}
+.cMMessAmount{
+  position: absolute;
+  bottom: 22px;
+  font-style: normal;
+  font-size: 16px;
+  color: #dd127b;
+  font-weight: 700;
+}
+.cMMessCancel{
+  position: absolute;
+  bottom: 12px;
+  right: 5px;
+  display: block;
+  width: 4.9rem;
+  height: 1.8rem;
+  border:1px solid #dd127b;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 15px;
+  color: #dd127b;
+}
+
+.prompt{
+  width: 10.6rem;
+  height: 2rem;
+  display: block;
+  background: #000;
+  opacity: 0;
+  color: #fff;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 16px;
+  position: fixed;
+  left: 50%;
+  margin-left: -5.3rem;
+  top: 50%;
+  margin-top: -1rem;
+}
+
+.mask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.85;
+  z-index: 10;
+  display: none;
+}
+.mask.show{
+  display: block;
+}
+.confirmDiv{
+  position: fixed;
+  z-index: 12;
+  width: 13.5rem;
+  height: 7rem;
+  background: #f8f8f8;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  padding: 0px 0.6rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -5rem;
+  margin-left: -6.75rem;
+  display: none;
+}
+.confirmDiv.show{
+  display: block;
+}
+.confirmDivH1{
+  height: 3.25rem;
+  line-height: 3.25rem;
+  font-size: 16px;
+  border-bottom: 1px solid #dcdcdc;
+  text-align: center;
+  margin: 0px;
+}
+.confirmDivBtn{
+  width: 100%;
+  height: 3.75rem;
+  border-top:1px solid #fff;
+  padding-top: 0.75rem;
+}
+.confirmDivA1{
+  display: block;
+  width: 5.8rem;
+  height: 2rem;
+  float: left;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  color: #878787;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 15px;
+}
+.confirmDivA2{
+  display: block;
+  width: 5.8rem;
+  height: 2rem;
+  float: right;
+  border: 1px solid #dd127b;
+  background: #dd127b;
+  color: #fff;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+.mContainer{
+  composes:mContainer from "../../common/util/util.css";
+}
+.mRow{
+  composes:mRow from "../../common/util/util.css";
+}
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+.paddingDiv{
+  padding: 10px 10px;
+}
+.picAndMess{
+  composes:clearfix;
+}
+.img{
+  display: block;
+  float: left;
+  width: 42%;
+  border:1px solid #ededed;
+  height: 7.35rem;
+}
+.mess{
+  float: right;
+  width: 58%;
+}
+.productTitle{
+  margin: 0px;
+  font-size: 12px; 
+  color: #3c3c3c;
+  line-height: 18px;
+  margin-top: 10px;
+  padding-left: 17px;
+}
+.productMoney{
+  padding-left: 17px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+}
+.productOne{
+  font-style: normal;
+  font-size: 12px;
+  color: #d40201;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.productOriginal{
+  font-style: normal;
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #e4e4e4;
+}
+.productOriginal i{
+  font-style: normal;
+}
+.paddingDivP{
+  line-height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #cda95b;
+  letter-spacing: 2px;
+}
+.helpBtn{
+  display: block;
+  height: 44px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  background: #f8c301;
+  line-height: 44px;
+  text-align: center;
+}
+.up{
+  width: 28px;
+  display: block;
+  margin: 11px auto;
+}
+
+.paddingPDiv{
+  padding: 0px 32px;
+}
+.paddingPDiv h1{
+  margin: 0px;
+  font-size: 21px;
+  color: #0c231d;
+  line-height: 70px;
+  text-align: center;
+}
+.paddingPDiv h2{
+  margin: 0px;
+  font-size: 17px;
+  color: #454545;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.paddingPDiv p{
+  font-size: 14px;
+  color: #888888;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,217 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+em{
+  font-style:normal;
+}
+a{
+  text-decoration:none;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.subjectbody{
+  font-size:0.75rem;
+  width: 100%;
+  height: 100%;
+}
+.titleScreena{
+  width: 100%;
+  text-align:center;
+  padding:0.75rem 0;
+  border-bottom:0.1rem solid #e5e5e5;
+  position: relative;
+}
+.titleScreenaz{
+  font-size:0.9rem;
+}
+.titleCancela{
+  position: absolute;
+  top:0.75rem;
+  left:5%;
+}
+
+/*筛选按钮*/
+.switchaU1{
+  width: 100%;
+}
+.switchaL1{
+  padding:0.65rem 0;
+  width: 90%;
+  border-bottom:0.1rem solid #e5e5e5;
+  margin-left:5%;
+}
+.switchaL1A{
+}
+.switchaL1B{
+}
+.switchaL1C{
+}
+.switchaL1D{
+}
+.switchaL1Img{
+  width: 37px;
+  height: 22px;
+  background:url("./out.png") center center no-repeat;
+  background-size:37px 22px;
+}
+.switchaL1Img1{
+  width: 37px;
+  height: 22px;
+  background:url("./on.png") center center no-repeat;
+  background-size:37px 22px;
+}
+
+/*价格区间*/
+.PriceRangeA{
+  padding:0.75rem 5%;
+  border-bottom:0.1rem solid #e5e5e5;
+}
+.PriceRangeC{
+  padding-right:0.45rem;
+  color:#d8d8d8;
+}
+input{
+  outline: none;
+}
+.PriceRangeCMin{
+  padding:0.35rem 0.8rem;
+  width: 5.25rem;
+  height: 1.5rem;
+  border:0.1rem solid #e5e5e5;
+  text-align:center;
+}
+.PriceRangeCMin1{
+}
+.PriceRangeCMin2{
+}
+
+/*品牌*/
+.brandAll{
+  width: 100%;
+  padding:0.75rem 5%;
+  border-bottom:0.1rem solid #e5e5e5;
+}
+.brandAllas{
+}
+.brandAllass{
+}
+
+
+.brandAllb{
+  margin-left:0.5rem;
+}
+.brandAllball{
+}
+.brandAllb1{
+  /*margin-left:10px;*/
+  /*transform:rotate(180deg);*/
+}
+.brandAllb img{
+  height: 0.5rem;
+}
+.brandAllbf{
+  transition: all 0.2s;
+}
+.brandAllbf1{
+  transform:rotate(180deg);
+}
+/*品牌展开*/
+.brandAllbOpen{
+  padding:0.75rem 0 0.75rem 5%;
+  border-bottom:0.1rem solid #e5e5e5;
+  font-size:0.65rem;
+}
+.brandAllbOpens{
+}
+.brandAllbOpenU1{
+  height: 2.4rem;
+  overflow:hidden;
+}
+.brandAllbOpenU1a{
+  height: 100%;
+}
+.brandAllbOpenl1{
+/*  width: 5.25rem;
+  height: 1.9rem;  */
+  width: 5.2rem;
+  height: 1.95rem;
+  padding:0.55rem 0 0 0.3rem;
+  margin:0 0.6rem 0.5rem 0;
+  border:0.075rem solid #e5e5e5;
+}
+.brandAllbOpenl1First{
+
+}
+.brandAllbOpenl1ss{
+}
+.brandAllbOpenl1sss{
+}
+.brandAllbOpenl1a{
+  background:url("./determine.png");
+  background-size:5.2rem 1.95rem;
+}
+.brandAllbOpenl1Name{
+  width: 4.5rem;
+  /*height: 14px;*/
+  height: 0.725rem;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+
+
+/* 悬浮按钮开始 */
+.backImgA {
+  position: fixed;
+  bottom: 3.55rem;
+  left: 8.4rem;
+  /*display: block;*/
+  width: 2rem;
+  height: 2rem;
+  z-index:100;
+  display: none;
+}
+.fixUpCss {
+  position: fixed;
+  bottom: 3.5rem;
+  right: -7.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixBackCss {
+  width: 2rem;
+  height: 2rem;
+}
+.block {
+  display: block;
+}
+/* 悬浮按钮结束 */
+
+/*确认*/
+.confirmover{
+  width: 100%;
+  color:#f9c301;
+
+}
+.confirmovera{
+  background:#232323;
+  padding:0.75rem 0;
+  margin:0 0.5rem 0.5rem 0.5rem;
+  font-size:0.9rem;
+}
+.confirmover a{
+  text-decoration:none;
+  color:#f9c301;
+}
+
+
+

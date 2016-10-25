@@ -1,0 +1,146 @@
+.clearfix{
+  composes:mContainer from "../../common/util/util.css";
+}
+a{
+  color:#000;
+}
+i{
+  font-style:normal;
+}
+.fr{
+  float: right;
+}
+.topBack{
+  width:100%;
+  height:2.2rem;
+  padding:0 0.6rem;
+}
+.topBack a{
+  float: left;
+  width:0.6rem;
+  height:100%;
+  background: url("./BBack.png") no-repeat center center;
+  background-size: 0.6rem 1.05rem;
+}
+.topBack h3{
+  float: left;
+  width:94%;
+  height:100%;
+  text-align: center;
+  line-height: 2.2rem;
+  font-size: 0.8rem;
+  color:#444444;
+}
+.tabCon{
+  width:100%;
+  height:2.4rem;
+  border-top:1px solid #c9c9c9;
+  border-bottom:1px solid #c9c9c9;
+}
+.tabCon li{
+  float: left;
+  width:50%;
+  text-align: center;
+  line-height: 2.2rem;
+}
+.tabCon li>a{
+  display: inline-block;
+  width:3.375rem;
+  height:2.2rem;
+  line-height: 2rem;
+  font-size:0.75rem;
+  color:#231816;
+}
+.tabCon .active{
+  line-height: 2.05rem;
+  background: #f7f6f4;
+}
+.tabCon .borLine{
+  border-left:1px solid #c9c9c9;
+}
+.tabCon .active>a{
+  color: #dd127b;
+  border-bottom: 0.15rem solid #dd127b;
+}
+.myTaskCon{
+  width:100%;
+}
+.myInfo{
+  width:100%;
+  height:7.375rem;
+  padding:0.25rem 2rem 0;
+  border-bottom:1px solid #c9c9c9;
+}
+.myName{
+  width:100%;
+  height:5.4rem;
+  text-align: center;
+}
+.myName img{
+  width:3rem;
+  height:3rem;
+  border-radius: 50%
+}
+.myName p{
+  width:100%;
+  margin-top:0.3rem;
+  text-align: center;
+  font-size:0.8rem;
+  color:#000;
+}
+.myScore p{
+  float: left;
+  font-size:0.8rem;
+  color:#000;
+}
+.myScore .fr{
+  float: right;
+}
+.myScore p>i{
+  color: #dd127b;
+}
+.myBanner{
+  width:100%;
+  height:3.875rem;
+  padding:0.325rem 0 0.525rem;
+  background: #e5e5e5;
+}
+.myBanner img{
+  width:100%;
+  height:100%;
+}
+.taskCon li{
+  width:100%;
+  height:2.2rem;
+  line-height: 2.2rem;
+  padding:0 0.6rem;
+  border-bottom: 1px solid #e5e5e5;
+  font-size:0.75rem;
+}
+.task p{
+  float:left; 
+}
+.task a{
+  float: right;
+  width:3.5rem;
+  height:1.3rem;
+  line-height: 1.3rem;
+  margin-top:0.425rem;
+  text-align: center;
+  color:#fff;
+}
+.task .toFinish{
+  background: #fed032;
+}
+.task .getReward{
+  background: #dd127b;
+}
+.task .finished{
+  background: #cccccc;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}

@@ -1,0 +1,35 @@
+.mContainer{
+  composes:mContainer from "../../common/util/util.css";
+}
+.mRow{
+  composes:mRow from "../../common/util/util.css";
+}
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+.title{
+  background: #f8c300;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.title.ios{
+  margin-top: 20px;
+}
+.titleImg{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+
+
+
+
+
+

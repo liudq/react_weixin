@@ -1,0 +1,62 @@
+.content {
+    width: 100%;
+}
+.singleContent {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  padding:1rem 0.6rem;
+}
+.singleLeft {
+  float: left;
+}
+.singleLeft img {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 0.25rem;
+}
+.clear {
+  clear: both;
+}
+.singleRight {
+  float: right;
+  width: 15.6rem;
+}
+.singleRightSec1 {
+  width: 100%;
+  border-bottom: 1px dashed #ffd181;
+  padding-bottom: 1rem;
+}
+.sec1Left {
+  float: left;
+}
+.sec1LeftP1 {
+  font-size: 0.5rem;
+  color: #221715;
+}
+.sec1LeftP1 i {
+  font-size: 0.5rem;
+  color: #888888;
+  font-style: normal;
+}
+.sec1LeftP2 {
+  font-size: 0.4rem;
+  color: #221715;
+  margin-top: 0.6rem;
+}
+.sec1Right {
+  float: right;
+  text-align: right;
+}
+.sec1Right p {
+  color: #dd147a;
+  font-size: 0.6rem;
+}
+.singleRightSec2 {
+  width: 100%;
+  padding-top: 0.75rem;
+}
+.sec1Left .num {
+  font-style: normal;
+  color: #dc117c;
+}

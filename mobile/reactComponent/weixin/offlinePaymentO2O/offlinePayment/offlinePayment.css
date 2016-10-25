@@ -1,0 +1,48 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.content {
+  width: 100%;
+  height: 100%;
+  padding:1rem;
+}
+.section1 {
+  width: 100%;
+  font-size: 0.8rem;
+  color: #bbb;
+}
+.section1Mobile {
+  width: 100%;
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-top: 1rem;
+}
+.section1 i {
+  font-style: normal;
+}
+.payInput {
+  width: 100%;
+  height: 2rem;
+  border:1px solid #bbb;
+  margin-top: 1rem;
+  padding:0rem 0.5rem;
+  font-size: 0.8rem;
+}
+.button {
+  width: 100%;
+  height: 2rem;
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  background-color: #000;
+  color: #f8c300;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.changeCss {
+  float: right;
+  margin-top: 0.5rem;
+}
+.clear {
+  clear: both;
+}

@@ -1,0 +1,63 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.content {
+  width: 100%;
+}
+.dateTitle {
+  width: 100%;
+  padding:0.5rem;
+  font-size: 0.7rem;
+}
+.dateWeek {
+  margin:0rem 2rem;
+  border-bottom: 1px solid #b0aeae;
+}
+.dateDay {
+  width: 29.6%;
+  line-height: 1.9rem;
+  text-align: center;
+  border:1px solid #bdbdbd;
+  border-radius: 0.3rem;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 0.75rem;
+}
+.dateDayRight {
+  margin-right: 0rem;
+}
+.dateActive {
+  border-color: #f8c300;
+}
+.time {
+  margin:0rem 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.begainTime {
+  width: 45%;
+  line-height: 2rem;
+  border:0px;
+  border-bottom: 1px solid #2e2d2d;
+  float: left;
+  text-align: center;
+}
+.endTime {
+  width: 45%;
+  line-height: 2rem;
+  border:0px;
+  border-bottom: 1px solid #2e2d2d;
+  float: right;
+  text-align: center;
+}
+.nextStep {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #231815;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  color: #f8c300;
+  text-align: center;
+}

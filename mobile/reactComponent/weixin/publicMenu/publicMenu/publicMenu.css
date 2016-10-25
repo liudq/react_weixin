@@ -1,0 +1,69 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.pay {
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.title {
+    width: 100%;
+    line-height: 5.5rem;
+    padding:0rem 0.5rem;
+    font-size: 0.9rem;
+    color: #0d0d0d;
+}
+.title img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1.5rem;
+}
+.section1 {
+  width: 100%;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e0e0e0;
+  padding:0.6rem 0.5rem;
+  font-size: 0.9rem;
+}
+.section2 {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding:0.6rem 0rem;
+}
+.section2 a {
+  font-size: 0.75rem;
+  margin-left: 2.25rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.section3 {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding:0.6rem 0.5rem;
+  margin:0.5rem 0rem;
+  font-size: 0.9rem;
+  display: block;
+  color: #000;
+}
+.section4 {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding:0.6rem 0.5rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.section5 {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding:0.75rem 0.6rem;
+  line-height: 1.25rem;
+}
+.section6 {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding:0.6rem 0.5rem;
+  margin:0.5rem 0rem;
+  font-size: 0.9rem;
+  display: block;
+  color: #000;
+}

@@ -1,0 +1,43 @@
+[{
+  "annualRate": 10,
+  "closeTime": 1451374844367,
+  "code": 2,
+  "id": "测试1号",
+  "maxBuy": 10000,
+  "minBuy": 100,
+  "name": "测试专用",
+  "openTime": 1451374844367,
+  "productsMax": 1000000,
+  "status": "上架",
+  "term": 2,
+  "termType": "个月"
+}, {
+  "annualRate": 10,
+  "closeTime": 1451374844367,
+  "code": 3,
+  "id": "测试1号",
+  "maxBuy": 10000,
+  "minBuy": 100,
+  "name": "测试专用",
+  "openTime": 1451374844367,
+  "productsMax": 10000000,
+  "status": "上架",
+  "term": 2,
+  "termType": "个月"
+}, {
+  "androidScope": "1",
+  "annualRate": 12,
+  "closeTime": 1451374844367,
+  "code": 123456,
+  "id": "火爆活动3号",
+  "iosScope": "1",
+  "maxBuy": 1000,
+  "minBuy": 100,
+  "name": "火辣三号",
+  "openTime": 1451374844367,
+  "pcScope": "1",
+  "productsMax": 10000000,
+  "status": "上架",
+  "term": 3,
+  "termType": "个月"
+}]

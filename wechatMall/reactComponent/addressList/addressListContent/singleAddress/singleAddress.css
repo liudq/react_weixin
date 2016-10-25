@@ -1,0 +1,77 @@
+.clear {
+    clear: both;
+}
+.address {
+    width: 85%;
+    padding: 0.88rem 0.55rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    float: left;
+}
+.addressLeft {
+    width: 100%;
+    float: left;
+    border-right: 0px solid #bfbfbf;
+    padding-right: 1rem;
+}
+.addressRight {
+    width: 15%;
+    float: right;
+    margin-top: 0.5rem;
+    background-color: #000;
+    height: 100%;
+    line-height: 4rem;
+}
+.leftTop {
+  width: 100%;
+  height: 0.95rem;
+  line-height: 0.95rem;
+  font-size: 0.7rem;
+  color: #333333;
+}
+.name {
+  float: left;
+}
+.name img {
+  height: 0.9rem;
+  width: 0.8rem;
+  float: left;
+  margin-right: 0.1rem;
+}
+.addressName {
+  margin-left: 0.1rem;
+  float: left;
+}
+.phone {
+  float: right;
+  font-size: 0.7rem;
+  color: #333;
+}
+.phone img {
+  width: 0.6rem;
+  height: 0.9rem;
+}
+.addressBottom {
+  font-size: 0.6rem;
+  color: #898989;
+  margin-top: 0.5rem;
+  height: 1.6rem;
+}
+.moRen {
+    width: 1.55rem;
+    height: 0.7rem;
+    margin-top: -0.1rem;
+}
+.addressRight {
+  font-size: 0.6rem;
+  line-height: 3.1rem;
+}
+.addressRight a {
+  background-color: #000;
+  color: #f8c300;
+  margin-left: 0.7rem;
+  line-height: 4.8rem;
+  display: block;
+}
+.addressContentHeight {
+}

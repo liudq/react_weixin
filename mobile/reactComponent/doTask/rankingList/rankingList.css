@@ -1,0 +1,144 @@
+.clearfix{
+  composes:mContainer from "../../common/util/util.css";
+}
+.con{
+  width:100%;
+  height:100%;
+  padding:0.1rem 0.6rem 0.6rem 0.6rem;
+  background: #e5e5e5;
+}
+.tit{
+  line-height: 2rem;
+  font-size:0.75rem;
+  color: #868686;
+}
+.ranklist{
+  width:100%;
+  background: #fff;
+  padding-bottom:100%;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+.topThree{
+  width:100%;
+  height:8rem;
+  padding-top:1rem;
+  padding-left:1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.topThree li{
+  float: left;
+  width:30%;
+  text-align: center;
+}
+.topThree li img{
+  width:100%;
+  height:100%;
+}
+.topThree .second {
+  padding-top:0.5rem;
+}
+.topThree li p{
+  font-size:0.65rem;
+  line-height: 0.9rem;
+}
+.topThree li>div{
+  position: relative;
+  border-radius: 50%;
+  margin-left:25%;
+  margin-bottom: 0.5rem;
+}
+.second div{
+  width:2.625rem;
+  height:2.625rem;
+  margin-top:0.3rem; 
+}
+.second p{
+  color:#d3d4d6; 
+}
+.crown2{
+  position: absolute;
+  top:-0.8rem;left:0;
+  width:2.625rem;
+  height:2.625rem;
+  background: url("./second.png");
+  background-size:100%;
+}
+.first div{
+  width:3.35rem;
+  height:3.35rem; 
+}
+.topThree .first div{
+  margin-left:19%;
+}
+.first p{
+  color:#f5d96c;
+}
+.crown1{
+  position: absolute;
+  top:-0.8rem;left:0;
+  width:3.35rem;
+  height:3.35rem;
+  background: url("./first.png");
+  background-size:100%;
+}
+.three{
+  padding-top:1rem;
+}
+.topThree .three div{
+  width:1.75rem;
+  height:1.75rem;
+  margin-left: 35%;
+  margin-top:0.6rem;
+  
+}
+.three p{
+  color:#bc9a52;
+}
+.crown3{
+  position: absolute;
+  top:-0.6rem;left:0;
+  width:1.75rem;
+  height:1.75rem;
+  background: url("./three.png");
+  background-size:100%;
+}
+.pro{
+  position: absolute;
+  top:0;left:0;
+}
+.followUp li{
+  width:100%;
+  height:2.95rem;
+  line-height: 2.95rem;
+  padding-left:0.9rem;
+  padding-right:0.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.followUp i{
+  float: left;
+  width:1.75rem;
+  font-size:1.2rem;
+  color:#9a9a9a;
+}
+.followUp a{
+  float: left;
+  width:1.75rem;
+  height:1.75rem;
+  line-height: 0;
+  margin-top:0.6rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.followUp a>img{
+  width:100%;
+  height:100%;
+}
+.followUp p{
+  float: left;
+  margin-left: 0.635rem;
+  font-size:0.75rem;
+  color:#221914;
+}
+.followUp .fr{
+  float: right;
+}

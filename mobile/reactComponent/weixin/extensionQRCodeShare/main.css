@@ -1,0 +1,29 @@
+.clearfix {
+  composes: clearfix from "../../common/util/util.css";
+}
+html {
+    height: 100%;
+    background-color: #000;
+}
+
+.qRCode1 {
+    width: 34%;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin-left: -17%;
+    margin-top: 2.6rem;
+}
+.content {
+    width: 100%;
+    text-align: center;
+}
+.content .qRCodeImg {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 0%;
+    margin-top: -13.2rem;
+}

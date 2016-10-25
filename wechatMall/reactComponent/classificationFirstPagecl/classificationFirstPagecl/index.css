@@ -1,0 +1,247 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+em{
+  font-style:normal;
+}
+
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.subjectbody{
+  font-size:0.8rem;
+  overflow:auto;
+  /*width: 100%;*/
+  height: 100%;
+}
+.subjectbody::-webkit-scrollbar {
+  width:0.15rem;
+  height:0px;
+}
+.subjectbody::-webkit-scrollbar-button{
+  display: none;
+}
+.subjectbody::-webkit-scrollbar-track{
+  display: none;
+}
+.subjectbody::-webkit-scrollbar-track-piece{
+  background:#333;
+}
+.subjectbody::-webkit-scrollbar-thumb{
+  background:#f8c300;
+}
+.subjectbody::-webkit-scrollbar-corner {
+  display: none;
+}
+.subjectbody::-webkit-scrollbar-resizer  {
+  display: none;
+}
+/*导航*/
+.Navigationaa{
+  width: 100%;
+  height: 2.25rem;
+}
+.Navigationa{
+  width: 100%;
+  height: 2.25rem;
+  background:#000000;
+  color:#ffffff;
+  padding-top:0.25rem;
+  padding-bottom:0.25rem;
+  border-top:1px solid #ffffff;
+  position: fixed;
+  top:0px;
+  /*left:42%;*/
+}
+.NavigationaXiaH{
+  width: 1.3rem;
+  height: 0.1rem;
+  /*background:#f7c200;*/
+  background:#000;
+  position: relative;
+  top:0;
+  left:50%;
+  margin-left:-0.65rem;
+  margin-top:0.35rem;
+}
+.on{
+  background:#f7c200;
+}
+.NavigationaU1L1{
+  width: 25%;
+}
+.NavigationaTub{
+  display:inline-block;
+}
+.NavigationaTub img{
+  width: 0.75rem;
+  margin-left:0.4rem;
+}
+.NavigationaSanj{
+  transition: all 0.2s;
+}
+.NavigationaSanja{
+  transform:rotate(180deg);
+}
+
+
+
+/*商品*/
+.commodity{
+  width: 100%;
+  background:#f6f6f6;
+}
+.commodityU1{
+  /*padding:0.95rem 0px 0.95rem 0.6rem;*/
+  padding:0.95rem 0px 2.05rem 0.6rem;
+}
+.commodityU1L1{
+  width: 8.6rem;
+  height: 11.9rem;
+  border:1px solid #0a1833;
+  /*text-align:center;*/
+  background:#ffffff;
+  margin-right:0.4rem;
+  margin-bottom:0.4rem;
+  border-radius:0.25rem;
+  padding-top:0.25rem;
+}
+.commodityU1L1Tu img{
+  width: 8.5rem;
+  height: 8.5rem;
+}
+.commodityU1L1Name{
+  width: 100%;
+  height: 0.78rem;
+  color:#232323;
+  font-size:0.7rem;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  padding:0 1rem;
+  margin:0.4rem 0 0.25rem 0;
+}
+.commodityU1L1Moneyc{
+  width: 100%;
+  text-align:left;
+  height: 1rem;
+}
+.commodityU1L1Moneya{
+  display:inline-block;
+  width: 1rem;
+  height: 1rem;
+  line-height:1rem;
+  color:#ffffff;
+  background:#f7c200;
+}
+.commodityU1L1Moneyb{
+  display:inline-block;
+  padding:0 0.35rem 0 0.15rem;
+  /*width: 66px;*/
+  height: 1rem;
+  line-height:1rem;
+  color:#ffffff;
+  background:#000000;
+  border-radius:0 0.35rem 0.35rem 0;
+}
+/* 悬浮按钮开始 */
+.backImgA {
+  position: absolute;
+  bottom:4.7rem;
+  left:0.7rem;
+  width: 2rem;
+  height: 2rem;
+  z-index:100;
+  display: none;
+}
+.fixUpCss {
+  position: absolute;
+  bottom:4.7rem;
+  right:0.7rem;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixBackCss {
+  width: 2rem;
+  height: 2rem;
+}
+.block {
+  display: block;
+}
+/* 悬浮按钮结束 */
+
+
+
+/*加载更多*/
+.loadMore{
+  width: 100%;
+  height: 2rem;
+  line-height:2rem;
+  background: #000;
+  color:#f7c200;
+}
+
+/*data-id*/
+.biaoj{
+}
+.biaoja{
+}
+.biaojx{
+}
+.biaojxx{
+}
+.biaojxxx{
+}
+/*遮层罩*/
+.loadingA{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  z-index: 1000;
+  /*display: none;*/
+}
+.loadingB{
+  position: absolute;
+  top:30%;
+  left:50%;
+  z-index:1000;
+  margin-left:-50px;
+  /*display: none;*/
+}
+.loadingBTu{
+  width: 100px;
+}
+.noDataClass{
+  display:none;
+  position: absolute;
+  top:30%;
+  right:50%;
+  margin-right:-111px;
+}
+
+/*引入筛选*/
+.ScreenAssemblya{
+  width: 100%;
+  overflow:scroll;
+  background:#fff;
+  position: absolute;
+  top:0;
+  display:none;
+  height:92%;
+}
+.showa{
+  display:block;
+}
+.hiddlea{
+  display:none;
+}

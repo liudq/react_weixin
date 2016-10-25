@@ -1,0 +1,13 @@
+[{
+  "rate": 6.5,
+  "amount": 10,
+  "term": 1
+}, {
+  "rate": 7.5,
+  "amount": 10,
+  "term": 3
+}, {
+  "rate": 8.5,
+  "amount": 10,
+  "term": 6
+}]

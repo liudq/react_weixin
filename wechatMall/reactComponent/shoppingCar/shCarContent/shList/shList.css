@@ -1,0 +1,139 @@
+.listDiv {
+    width: 100%;
+    padding: 1.5rem 1rem 1.3rem 0.6rem ;
+    border-top: 1px solid #e5e5e5;
+}
+.list1 {
+    width: 9%;
+    float: left;
+}
+.list2 {
+    width: 19%;
+    float: left;
+    margin-top: 0.9rem;
+    margin-right: 2%;
+}
+.list3 {
+    width: 70%;
+    float: left;
+}
+.list4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.clear {
+    clear:both;
+}
+.noChoiceBg {
+    width: 0.79rem;
+    height: 0.79rem;
+    border: 0px;
+    margin-top: 1.8rem;
+    border: 1px solid #c1c1c1;
+    border-radius: 0.395rem;
+}
+.shListImg {
+    width: 100%;
+    height: 2.5rem;
+}
+.list3Name{
+    color: #a4a4a4;
+    font-size: 0.5rem;
+    /* height: 1.6rem; */
+}
+.list3Num {
+    margin-top: 0.5rem;
+}
+.list3Num div {
+    float: left;
+}
+.list3Num .rightFLoat {
+    float: right;
+}
+.list3NumL {
+    background-color: #f8c300;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-image: url("./jian.png");
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.list3NumC {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.4rem;
+    text-align: center;
+    color: #000;
+    line-height: 1.5rem;
+}
+.list3NumR {
+    background-color: #f8c300;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-image: url("./jia.png");
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.list4 {
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+}
+.list4T1 {
+    color: #f8c300;
+}
+.list4T2 {
+    color: #888888;
+    text-decoration: line-through;
+    margin-top: 0rem;
+}
+.list4Button {
+    background-color: #f8c300;
+    margin-top: 0rem;
+    border: 0px;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    float: right;
+}
+.choiceBg {
+    background-image: url("./choice.png");
+    border: 0px;
+    background-size: 0.79rem 0.79rem;
+    background-repeat: no-repeat;
+}
+.activityListCss {
+    width: 30%;
+}
+.block {
+    display: block;
+}
+.none {
+    display: none;
+}
+.mySelectCss {
+    font-size: 0.65rem;
+    margin-top: 0.5rem;
+    width: 6rem;
+    float: right;
+    background-color: #fff;
+}
+.cash {
+  background-color: #f8c300;
+  color: #fff;
+  font-style: normal;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+}
+.cash2 {
+  background-color: #000;
+  color: #fff;
+  font-style: normal;
+  width: 2rem;
+  display: inline-block;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

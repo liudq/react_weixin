@@ -1,0 +1,64 @@
+body {
+  background-color: #e5e5e5;
+}
+.adressListContent {
+    width: 100%;
+}
+.title {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    background-color: #f8c300;
+    top: 0px;
+}
+.title2 {
+  width: 100%;
+  height: 2.2rem;
+}
+.titleLeft {
+  float: left;
+  height: 2.25rem;
+  line-height: 2.25rem;
+}
+.backImg {
+  float: left;
+  height: 1.05rem;
+  width: 0.6rem;
+  position: absolute;
+  margin-top: 0.7rem;
+  margin-left: 0.6rem;
+}
+.titleCenter {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 2.2rem;
+}
+.content {
+  width: 100%;
+}
+.cteateAddress {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0.65rem 1.25rem;
+}
+.cteateAddress2 {
+  height: 76px;
+  width: 100%;
+  padding: 0.65rem 1.25rem;
+}
+.newAddress {
+  width: 100%;
+  background-color:#f8c300;
+  text-align: center;
+  padding: 0.6rem 0rem;
+  color: #fff;
+  display: block;
+
+}
+.title12 {
+  background-color: #000;
+  color: #f8c300;
+}

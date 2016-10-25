@@ -1,0 +1,189 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+
+a{
+  text-decoration:none;
+}
+em{
+  font-style:normal;
+}
+body{
+  background:#ffffff;
+  /*background:#f0f0f0;*/
+}
+.content {
+  width: 100%;
+  /*background:#ffffff;*/
+}
+
+/* title开始 */
+.specialTitlet{
+  width: 100%;
+  height: 2.5rem;
+}
+.specialTitle {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1;
+  width: 100%;
+  height: 2.5rem;
+  line-height:2.5rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #fff;
+  background-color: #f8c300;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}
+.specialTitle img {
+  width: 0.6rem;
+}
+
+.backImgCss {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:0 0.5rem;
+}
+.backImgCss img {
+  width: 0.6rem;
+  height: 1.05rem;
+}
+
+
+/* 悬浮按钮开始 */
+.backImgA {
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixUpCss {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixBackCss {
+  width: 2rem;
+  height: 2rem;
+}
+.block {
+  display: block;
+}
+
+/* 悬浮按钮结束 */
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+
+
+/*主体*/
+.mainCon{
+  position: relative;
+  background:#f0f0f0;
+  width:100%;
+  padding-bottom:0.1rem;
+}
+
+.recorda{
+  width: 100%;
+  background:#ffffff;
+  margin-bottom:0.5rem;
+}
+.recordaDate{
+  color:#929292;
+  padding:0.5rem 0 0.5rem 0.5rem;
+}
+
+
+.recordaDated{
+  width: 100%;
+  border-top:1px solid #e7e7e7;
+  border-bottom:0.05rem solid #e7e7e7;
+  padding:0.55rem 0;
+  font-size:0.7rem;
+}
+
+.recordaDatedFl{
+  width: 3.35rem;
+  height: 3.35rem;
+  margin-left:0.55rem;
+}
+.recordaDatedFl img{
+  width: 3.35rem;
+  height: 3.35rem;
+}
+@media (max-width:360px) {
+  .recordaDatedFr{
+  padding-right:0px;
+}
+}
+@media (min-width:370px) {
+  .recordaDatedFr{
+  padding-right:2.25rem;
+}
+}
+
+.explaina{
+  width: 12rem;
+  /*color:#464646;*/
+  color:#929292;
+  margin-bottom:1.35rem;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+.explainal{
+  width: 0.8rem;
+  height: 0.8rem;
+  background:#f8c301;
+  color:#ffffff;
+}
+.explainar{
+  height: 0.8rem;
+  background:#232323;
+  color:#ffffff;
+  border-radius:0 5px 5px 0;
+  padding:0 0.35rem 0 0.1rem;
+}
+.recordaDatex{
+  width: 100%;
+  padding:0.35rem 0;
+  color:#929292;
+  font-size:0.7rem;
+}
+.recordaDatexfla{
+  padding-left:0.55rem;
+}
+.recordaDatexfra_a{
+  padding:0.35rem 0.75rem;
+  border-left:1px solid #e7e7e7;
+}
+.recordaDatexfra_b{
+  background:#232323;
+  color:#d1a40b;
+  padding:0.35rem 0.75rem;
+}

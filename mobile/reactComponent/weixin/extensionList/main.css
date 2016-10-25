@@ -1,0 +1,177 @@
+.clear {
+  clear: both;
+}
+.tab {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.tab1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.tab2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.content {
+  width: 100%;
+  padding-top: 0.5rem;
+}
+.direct {
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 15px;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    border-right: 0px;
+    border-radius: 4px 0px 0px 0px;
+}
+.indirect {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 15px;
+  color: #666;
+  border: 1px solid #e5e5e5;
+  border-radius: 0px 4px 0px 0px;
+}
+.list {
+  width: 100%;
+}
+.name {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+  color: #666;
+  border-left: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.num {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+  color: #666;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+
+.introduce{
+  margin: 0px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #666;
+  padding: 10px;
+  margin-bottom: 0px;
+  line-height: 20px;
+  border:1px solid #e5e5e5;
+  display: block;
+  border-radius: 4px;
+  border-bottom: 2px solid #dd127b;
+}
+/* 加分页开始 */
+.page {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 1rem;
+  color: #666;
+}
+.fristPage {
+  display: inline-block;
+  padding:0.2rem 0.3rem;
+  border:1px solid #e5e5e5;
+  border-radius: 0.2rem;
+  margin-right: 0.2rem;
+}
+.upPage {
+  display: inline-block;
+  padding:0.2rem 0.3rem;
+  border:1px solid #e5e5e5;
+  border-radius: 0.2rem;
+  margin-right: 0.2rem;
+}
+.thisPage {
+  display: inline-block;
+  margin-right: 0.1rem;
+}
+.nextPage {
+  display: inline-block;
+  padding:0.2rem 0.3rem;
+  border:1px solid #e5e5e5;
+  border-radius: 0.2rem;
+  margin-right: 0.2rem;
+}
+.endPage {
+  display: inline-block;
+  padding:0.2rem 0.3rem;
+  border:1px solid #e5e5e5;
+  border-radius: 0.2rem;
+}
+
+/* 加分页结束 */
+
+/* 余额开始 */
+.cashDiv{
+  width: 100%;
+  margin-top: 0.5rem;
+  border-bottom: 2px solid #dd127b;
+  font-size: 0.7rem;
+  color: #666;
+  border-radius: 0.2rem;
+}
+.section1 {
+  width: 100%;
+}
+.sec1Name {
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 1.5rem;
+  border: 1px solid #e5e5e5;
+  border-top-left-radius:0.2rem;
+}
+.sec1Describe {
+  float: left;
+  width: 50%;
+  text-align: center;
+  line-height: 1.5rem;
+  border: 1px solid #e5e5e5;
+  border-top-right-radius:0.2rem;
+}
+.sec2Name {
+  width: 50%;
+  float: left;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-top-left-radius:0.2rem;
+  line-height: 2rem;
+  border-top: 0rem;
+  border-bottom: 0rem;
+}
+.sec2Des {
+  float: left;
+  width: 50%;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-top-right-radius:0.2rem;
+  line-height: normal;
+  border-bottom: 0rem;
+  border-top: 0rem;
+}
+/* 余额结束 */

@@ -1,0 +1,61 @@
+{
+  "header": {
+    "bkg1": "/uploadImg/Brandbanner2.jpg",
+    "logo": "/uploadImg/AptamilLogo1.png"
+  },
+  "nav": {
+    "ban1": "/uploadImg/SNBpic1.jpg",
+    "pic1": "/uploadImg/SNpic1.jpg",
+    "pic2": "/uploadImg/SNpic2.jpg",
+    "pic3": "/uploadImg/SNpic3.jpg",
+    "pic4": "/uploadImg/SNpic4.jpg",
+    "ban2": "/uploadImg/SNpic5.png"
+  },
+  "AllProducts": [{
+    "proPic": "/uploadImg/SPpic1.jpg",
+    "proNM": "惠氏启赋 （Wyeth illuma)幼儿配方奶粉3段900克（灌装）",
+    "proPri": "￥328.00",
+    "reputable": "97%",
+    "porson": 12345
+  }, {
+    "proPic": "/uploadImg/SPpic2.jpg",
+    "proNM": "惠氏启赋 （Wyeth illuma)幼儿配方奶粉3段900克（灌装）",
+    "proPri": "￥328.00",
+    "reputable": "97%",
+    "porson": 12345
+  }, {
+    "proPic": "/uploadImg/SPpic2.jpg",
+    "proNM": "惠氏启赋 （Wyeth illuma)幼儿配方奶粉3段900克（灌装）",
+    "proPri": "￥328.00",
+    "reputable": "97%",
+    "porson": 12345
+  }, {
+    "proPic": "/uploadImg/SPpic2.jpg",
+    "proNM": "惠氏启赋 （Wyeth illuma)幼儿配方奶粉3段900克（灌装）",
+    "proPri": "￥328.00",
+    "reputable": "97%",
+    "porson": 12345
+  }, {
+    "proPic": "/uploadImg/SPpic2.jpg",
+    "proNM": "惠氏启赋 （Wyeth illuma)幼儿配方奶粉3段900克（灌装）",
+    "proPri": "￥328.00",
+    "reputable": "97%",
+    "porson": 12345
+  }],
+  "cate": [{
+    "cateTit": "奶粉",
+    "cateName": {
+      "name": "进口奶粉",
+      "name": "成人奶粉",
+      "name": "高钙脱脂奶粉"
+    }
+  }, {
+    "cateTit": "纸尿裤",
+    "cateName": {
+      "name": "低腰纸尿裤",
+      "name": "3D立体纸尿裤",
+      "name": "进口纸尿裤",
+      "name": "蝉薄纸尿裤"
+    }
+  }]
+}

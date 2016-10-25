@@ -1,0 +1,219 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+.infContain{
+	background: #f0f0f0;
+	width: 100%;
+	background: #f0f0f0;
+	text-align: left;
+}
+.listHead{
+	width: 100%;
+	background: white;
+	padding: 0 0.5rem;
+	text-align: left;
+	margin-bottom:0.5rem; 
+}
+.listHead p{
+	width: 100%;
+	border-bottom: 1px dashed #f0f0f0;
+	background: white;
+	line-height: 1.75rem;
+	color: #000000;
+	font-size: 0.5rem;
+}
+.listHead .noneBorder{
+	border: none;
+}
+.listHead2{
+	width: 100%;
+	background: white;
+	padding: 0 0.5rem;
+	margin-bottom:0.5rem; 
+}
+.listHead2 p{
+	width: 100%;
+	
+	border-bottom: 1px dashed #f0f0f0;
+	background: white;
+	line-height: 1.75rem;
+	color: #000000;
+	font-size: 0.5rem;
+}
+.context{
+
+}
+.ftime{
+	color: #a3a3a3;
+	margin-left: 0.3rem;
+}
+.btn{
+	float: right;
+	margin-top: .5rem;
+	width: 1.3rem;
+	height: 1rem;
+}
+.orderSn{
+	color: #a3a3a3;
+	padding-left: 0.5rem;
+}
+.orderPerson{
+	padding:0rem 0.5rem;
+}
+.createTime{
+	font-size: 0.4rem;
+	float: left;
+	color: #929292;
+}
+.orderState{
+	float: right;
+	color: red;
+	font-size: 0.6rem;
+}
+.listHead .oderAddress{
+	color: #676767;
+	border: none;
+}
+
+.orderList{
+	background: white;
+	margin: 0.5rem 0rem;
+	width: 100%;
+	text-align: left;
+}
+.orderListHead{
+	height: 1.5rem;
+	width: 100%;
+	line-height: 2rem;
+	padding-left: 0.5rem;
+	font-size: 0.7rem;
+	background: white;
+	border-bottom: 1px solid #f0f0f0;
+}
+figure{
+	width: 100%;
+	background: white;
+	border-bottom: 1px solid #f0f0f0;
+	padding:0.5rem;
+	text-align: left;
+}
+figure img{
+	width: 3.25rem;
+	height: 3.25rem;
+	float: left;
+	margin-right: 0.5rem;
+}
+figcaption{
+	float: left;
+	height: 3.25rem;
+	position: relative;
+}
+.goodsTitle{ 
+	font-size: 0.5rem;
+	color: #010101;
+}
+.goodsPrice{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	/* 修改 */
+	overflow: hidden;
+}
+.goodsPrice span{
+	float: left;
+}
+
+.goodsPrice span:nth-of-type(1){
+	background: #e6b500;
+	width: 1rem;
+	height: 1rem;
+	text-align:center;
+	line-height: 1rem;
+	font-size: 0.425rem;
+	color: white;
+}
+.goodsPrice span:nth-of-type(2){
+	background: #232323;
+	height: 1rem;
+	width: 2.53rem;
+	-moz-border-radius: 0 0.4rem 0.4rem 0;
+    -webkit-border-radius:0 0.4rem 0.4rem 0;
+    border-radius:0 0.4rem 0.4rem 0;
+    font-size: 0.425rem;
+    color: white;
+    text-indent:0.425rem;
+    line-height:1rem; 
+    margin-right: 1rem;
+} 
+.goodsPrice span:nth-of-type(3){
+	
+	height: 1rem;
+    font-size: 0.5rem;
+    color: #a3a3a3;
+    line-height:1rem; 
+} 
+.goodsPrice span:nth-of-type(4){
+	height: 1rem;
+    font-size: 0.5rem;
+    color: #a3a3a3;
+    line-height:1rem; 
+} 
+.orderPrice{
+	
+	background: white;
+	text-align: left;
+}
+.orderPrice p{
+	padding: 0 0.5rem;
+	height: 1.65rem;
+	line-height: 1.65rem;
+	font-size: 0.6rem;
+	color: #000000;
+	border-bottom: 1px solid #f0f0f0;
+}
+.orderPrice p span:nth-of-type(2){
+	float: right;
+}
+.orderPrice p span i{
+	font-style: normal;
+}
+.orderReceipt{
+	width: 100%;
+	background: white;
+	margin-top:0.5rem;
+	text-align: left; 
+
+}
+.orderReceipt .orderListHead{
+	border: none;
+	height: 1.5rem;
+}
+.orderReceipt p{
+	padding-left: 0.5rem;
+	width: 100%;
+	height: 2rem;
+	font-size: 0.6rem;
+	line-height: 2rem;
+	color: #b1b1b1;
+}
+
+.orderReceipt p span:nth-of-type(2){
+	margin-left: 0.5rem;
+}
+.payBtn{
+	text-align: center;
+	height: 2rem;
+	background: #000000;
+	width: 92%;
+	margin:2% 4% 4%;
+	line-height: 2rem;
+	color: #e6b500;
+	font-size: 0.6rem;
+}
+
+.invoiceTitle{
+	margin-left:0.3rem; 
+}
+.invoiceType{
+	margin-left: 0.3rem;
+}

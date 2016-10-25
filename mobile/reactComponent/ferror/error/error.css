@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.content {
+    width: 100%;
+    text-align: center;
+    background-image: url("./error.png");
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.content img {
+    width: 80%;
+    margin-top: 5rem;
+}
+.content a {
+    border-radius: 0.5rem;
+    padding:0.4rem 1rem;
+    color: #fff;
+    background-color: #231816;
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 0.75rem;
+    position: fixed;
+    bottom: 4rem;
+    left: 50%;
+    margin-left: -2.5rem;
+}

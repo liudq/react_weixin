@@ -1,0 +1,236 @@
+.register {
+    /* background-image: url("./2.png"); */
+    height: 100%;
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: 100% 100%;
+    padding:0px 1.5rem;
+}
+
+.phone {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border:0px;
+  padding-left: 0.65rem;
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 2rem;
+  border:0px solid #888888;
+  margin-top: 0.5rem;
+  border-bottom:1px solid #e5e5e5;
+  /* position: absolute;
+  top: 0.75rem;
+  left: 0px;
+  width: 14.25rem;
+  margin-left: 2.25rem;  */
+}
+.phoneActive {
+  margin-top: 0.5rem;
+}
+.Verification {
+  width: 100%;
+  border:0px;
+  border-radius: 0.2rem;
+  font-size: 0.85rem;
+  color: #9e9e9e;
+  border-bottom: 1px solid #e5e5e5;
+  /* position: absolute;
+  top: 3.55rem;
+  left: 0px;
+  width: 14.25rem;
+  margin-left: 2.25rem;  */
+}
+.clear {
+  clear: both;
+}
+.Verification input {
+  border:0px solid #888;
+  width: 39%;
+  height: 2.15rem;
+  line-height: 2.15rem;
+  padding-left: 0.65rem;
+  float: left;
+  margin-right: 0.1rem;
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+}
+.timefont {
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: #f8c300;
+  font-size: 0.75rem;
+  padding:0.3rem 0rem;
+}
+.passwordCss {
+  width: 100%;
+  height: 2.15rem;
+  line-height: 2.15rem;
+  border:0px;
+  padding-left: 0.65rem;
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.5rem;
+  border:0px solid #888;
+  border-bottom: 1px solid #e5e5e5;
+  /* position: absolute;
+   top: 6.2rem;
+   left: 0px;
+   width: 14.25rem;
+   margin-left: 2.25rem; */ 
+}
+.repasswordCss {
+  width: 100%;
+  height: 2.15rem;
+  line-height: 2.15rem;
+  border:0px;
+  padding-left: 0.65rem;
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.5rem;
+  border:0px solid #888;
+  border-bottom: 1px solid #e5e5e5;
+  /* position: absolute;
+  top: 9rem;
+  left: 0px;
+  width: 14.25rem;
+  margin-left: 2.25rem; */
+}
+.button {
+  width: 100%;
+  height: 2.25rem;
+  background-color: #f8c300;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.25rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  /* margin-top: 0.5rem; */
+  /* position: absolute;
+  top: 15rem;
+  left: 0px;
+  width: 14.25rem;
+  margin-left: 2.25rem; */
+}
+.yanZhengMa {
+    width: 60%;
+    float: right;
+    color: #fff;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    padding:0.5rem 0rem;
+}
+.msgBorder {
+  border-right:1px solid #e5e5e5;
+}
+.block {
+  display: block;
+}
+.none{
+  display: none;
+}
+.agreement {
+    padding: 0.5rem 0px;
+    font-size: 0.6rem;
+    color: #888888;
+    height: 1.9rem;
+    line-height: 0.9rem;
+    float: left;
+}
+.agreement a {
+    color: #444444;
+}
+.agreInput{
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 0.45rem;
+    display: inline-block;
+    float: left;
+    margin-right: 0.3rem;
+    border: 1px solid #e5e5e5;
+}
+.agreementInput {
+  background-image: url("./duiGou.png");
+  background-repeat: no-repeat;
+  background-size: 0.8rem 0.8rem;
+}
+.agreText{
+  float: left;
+  color: #888;
+}
+.load {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  float: right;
+  padding:0.5rem 0rem;
+  font-size: 0.6rem;
+}
+.load a {
+  color: #f8c300;
+}
+.topImg {
+  width: 100%;
+}
+.registerTitle {
+  width: 100%;
+  line-height: 2.2rem;
+  font-size: 0.9rem;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #f8c300;
+}
+.backImgI {
+  padding:0px 0.5rem;
+  position: absolute;
+  left: 0px;
+}
+.backImgI img {
+  height: 1rem;
+  width: 0.6rem;
+}
+.registerBottom {
+  width: 100%;
+}
+.pictureVerification {
+  width: 100%;
+  height: 2.15rem;
+  line-height: 2.15rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.pictureVerification input {
+  float: left;
+  border: 0px;
+  height: 2.1rem;
+  font-size: 0.75rem;
+  padding-left: 0.65rem;
+  width: 50%;
+}
+.pictureVerificationRight {
+  float: left;
+  width: 50%;
+  height: 2.15rem;
+}
+.pictureVerificationRight img {
+  width: 100%;
+  float: left;
+  height: 2.1rem;
+}
+.nextverification {
+  font-size: 0.75rem;
+  text-align: center;
+  width: 50%;
+  float: left;
+  color: #f8c300;
+}
+.nextverificationLeft {
+  width: 50%;
+  float: left;
+}

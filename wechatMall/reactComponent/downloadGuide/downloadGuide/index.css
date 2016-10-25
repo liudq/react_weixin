@@ -1,0 +1,143 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+body{
+  background: #dae3ec;
+}
+.main{}
+@-webkit-keyframes swing{
+  0%   {transform: perspective(600px) rotateX(10deg);}
+  100% {transform: perspective(600px) rotateX(-6deg);}
+}
+@keyframes swing{
+  0%   {transform: perspective(600px) rotateX(10deg);}
+  100% {transform: perspective(600px) rotateX(-6deg);}
+}
+/*主3d空间*/
+.main3dContainer{
+  height: 400px;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  transition: transform 1s;
+  -webkit-perspective: 600;
+  perspective: 600;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+  -webkit-transform-origin:50% 0%;
+  -webkit-animation: swing 1s ease-in-out infinite alternate;
+  animation: swing 1s ease-in-out infinite alternate;
+}
+/*左侧绳子*/
+.leftRope{
+  position: absolute;
+  z-index: 10;
+  height: 50px;
+  width: 10px;
+  left: 15%;
+}
+/*右侧绳子*/
+.rightRope{
+  position: absolute;
+  z-index: 11;
+  height: 50px;
+  width: 6px;
+  right: 15%;
+}
+/*绳子实体*/
+.leftRopeTop{
+  height: 46px;
+  width: 6px;
+  position: absolute;
+  left: 2px;
+  top: 0px;
+  background: #ddcaa9;
+  border-radius: 0px 0px 4px 4px;
+  z-index: 12;
+  background:-webkit-linear-gradient(left,#dbc8a7 25%,#f9e6be 25%,#e3d1a9 75%);
+}
+/*绳子下面的洞*/
+.leftRopeCircle{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: #dae3ec;
+  z-index: 10;
+  border-radius: 50%;
+}
+/*主面板*/
+.mainPanel{
+  width: 100%;
+  background: #fff;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+  top: 37px;
+  z-index: 9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */ 
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+  flex-direction:column;
+}
+.logo{
+  width: 190px;
+  position: relative;
+  left:50%;
+  margin-left: -95px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.downloadBtn{
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */ 
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+  position: relative;
+  width: 70%;
+  left: 15%;
+  height: 55px;
+  border:1px solid #ddd;
+  border-bottom: 4px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  /*background:-webkit-linear-gradient(top,#c8da84 ,#9cb442);*/
+}
+.downloadImg{
+  height: 50px;
+  border-radius: 5px;
+}
+.downloadText{
+  flex-grow:1;
+  text-align: center;
+  line-height: 50px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

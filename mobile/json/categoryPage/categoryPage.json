@@ -1,0 +1,50 @@
+{
+  "bannerPic": {
+    "bannerUrl1": "/uploadImg/Brandbanner1.jpg",
+    "bannerUrl2": "/uploadImg/Brandbanner2.jpg"
+  },
+  "tit": "奶粉品牌",
+  "brandList": [{
+    "masterImg": "/uploadImg/brandPro1.jpg",
+    "brandName": "贝因美"
+  }, {
+    "masterImg": "/uploadImg/brandPro2.jpg",
+    "brandName": "雅培"
+  }, {
+    "masterImg": "/uploadImg/brandPro1.jpg",
+    "brandName": "贝因美"
+  }, {
+    "masterImg": "/uploadImg/brandPro2.jpg",
+    "brandName": "雅培"
+  }, {
+    "masterImg": "/uploadImg/brandPro1.jpg",
+    "brandName": "贝因美"
+  }, {
+    "masterImg": "/uploadImg/brandPro2.jpg",
+    "brandName": "雅培"
+  }, {
+    "masterImg": "/uploadImg/brandPro1.jpg",
+    "brandName": "贝因美"
+  }, {
+    "masterImg": "/uploadImg/brandPro2.jpg",
+    "brandName": "雅培"
+  }, {
+    "masterImg": "/uploadImg/brandPro1.jpg",
+    "brandName": "贝因美"
+  }, {
+    "masterImg": "/uploadImg/brandPro2.jpg",
+    "brandName": "雅培"
+  }, {
+    "masterImg": "/uploadImg/brandPro1.jpg",
+    "brandName": "贝因美"
+  }, {
+    "masterImg": "/uploadImg/brandPro2.jpg",
+    "brandName": "雅培"
+  }, {
+    "masterImg": "/uploadImg/brandPro1.jpg",
+    "brandName": "贝因美"
+  }, {
+    "masterImg": "/uploadImg/brandPro2.jpg",
+    "brandName": "雅培"
+  }]
+}

@@ -1,0 +1,271 @@
+body {
+  background-color: #f8f8f8;
+}
+.clear {
+  clear: both;
+}
+.content {
+  width: 100%;
+}
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.backImgCss {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding:0px 0.5rem;
+  margin-top: 0.5rem;
+}
+.banner .backImgCss img {
+  width: 0.6rem;
+  height: 1.05rem;
+}
+.buyImg {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.buyImg img {
+  width: 50%;
+}
+.hotCss {
+  width: 100%;
+  margin-top: 0.75rem;
+  display: block;
+}
+.hotCss img {
+  width: 100%;
+}
+.activityOne {
+  width: 100%;
+  display: block;
+}
+.activityOne img {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+.goodsContent {
+  width: 95%;
+  margin:0px auto;
+  background-color: #fff;
+  margin-top: 1.5rem;
+  padding:1rem 0px;
+}
+.singleGoods {
+  width: 100%;
+}
+.huoDong1 {
+  width: 100%;
+}
+.goodsA {
+  width: 100%;
+  display: block;
+}
+.goodsImg {
+  width: 48%;
+  float: left;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.goodsImg img {
+  width: 5.75rem;
+  height: 5.75rem;
+}
+.goodsRight {
+  width: 52%;
+  float: right;
+}
+.title {
+  width: 90%;
+  line-height: 1rem;
+  font-size: 0.6rem;
+  color: #444444;
+  padding-left: 0.2rem;
+  margin-top: 0.5rem;
+}
+.markPrice {
+  font-size: 0.7rem;
+  color: #444444;
+  text-decoration: line-through;
+  margin-top: 0.6rem;
+}
+.realPrice {
+  font-size: 0.7rem;
+  color: #444;
+  margin-top: 0.4rem;
+}
+.realPrice i {
+  font-style: normal;
+  color: #e50126;
+  font-size: 0.75rem;
+}
+.titleImg {
+  width: 100%;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.titleImg img {
+  width: 100%;
+}
+.hotMai {
+  width: 100%;
+  padding-left: 2.5%;
+}
+.singleHot {
+  width: 47%;
+  float: left;
+  background-color: #fff;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.singleHotImg {
+  width: 100%;
+  text-align: center;
+  padding:1rem 0px;
+}
+.singleHot img {
+  width: 50%;
+  height: 4.2rem;
+}
+.singleHotTitle {
+  width: 100%;
+  font-size: 0.6rem;
+  color: #777777;
+  margin-top: 0.5rem;
+  text-align: left;
+  padding-left: 0.5rem;
+  height: 1.6rem;
+}
+.price {
+  width: 100%;
+  color: #e50126;
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+.price i {
+  color: #888888;
+  text-decoration: line-through;
+  font-style: normal;
+  margin-left: 0.5rem;
+}
+.more {
+  font-size: 0.5rem;
+  color: #888888;
+  margin-left:50%;
+}
+.ruleCss {
+  width: 100%;
+  padding:0.5rem 0.5rem;
+  background-color: #fff;
+  color: #4b4b4b;
+  margin-bottom: 2.5rem;
+}
+.ruleCss img {
+  width: 100%;
+}
+/* 悬浮按钮开始 */
+.backImgA {
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixUpCss {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+.fixBackCss {
+  width: 2rem;
+  height: 2rem;
+}
+.block {
+  display: block;
+}
+
+/* 悬浮按钮结束 */
+
+/* title开始 */
+.specialTitle {
+  width: 100%;
+  padding: .5rem 0;
+  text-align: center;
+  font-size: .9rem;
+  color: #fff;
+  background-color: #f8c300;
+}
+.specialTitle img {
+  width: 0.5rem;
+}
+.shareBaobao {
+  position: absolute;
+  right: 0px;
+  top:0px;
+  margin-top: 0.5rem;
+  padding:0px 0.5rem;
+}
+.shareBaobao img {
+  width: 1rem;
+}
+.ruleCss p {
+  font-size: 0.6rem;
+  line-height: 1rem;
+}
+/* title结束 */
+
+.tishi {
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  height: 3rem;
+  background-color: #000;
+  opacity: 0.7;
+}
+.tishiText {
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  height: 3rem;
+  color: #fff;
+  line-height: 3rem;
+  padding:0rem 1rem;
+}
+.lijitiyan {
+  display: inline-block;
+  background-color: #f8c300;
+  height: 2rem;
+  line-height: 2rem;
+  color: #fff;
+  padding:0rem 0.5rem;
+  float: right;
+  margin-top: 0.5rem;
+}
+.tishiText img {
+  width: 2rem;
+  float: left;
+  margin-top: 0.5rem;
+}
+.tishiNeirong {
+  width: 51%;
+  float: left;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.none {
+  display: none;
+}

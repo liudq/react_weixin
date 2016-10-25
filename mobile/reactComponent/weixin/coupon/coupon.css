@@ -1,0 +1,93 @@
+.content {
+  width: 100%;
+  padding:0.5rem;
+}
+.singleCoupon {
+  width: 100%;
+  font-size: 0.5rem;
+  color: #fff;
+  margin-top: 1.125rem;
+  height: 5.625rem;
+  background-image: url("./youhuiquan_03.png");
+  background-size: 100% 5.625rem;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+.amount {
+  font-size: 2rem;
+  font-weight: bold;
+  float: left;
+  margin-top: 1.3rem;
+  margin-left: 2rem;
+}
+.miniAmount {
+  position: absolute;
+  left: 14.6rem;
+  top:2.3rem;
+  font-size: 0.9rem;
+  color: #675e4c;
+}
+.time {
+  position: absolute;
+  top: 4.65rem;
+  left: 3.4rem;
+  font-size: 0.6rem;
+  color: #656565;
+}
+.stateFont {
+  width: 2.5rem;
+  height: 1.15rem;
+  border:1px solid #d9372c;
+  color: #d9372c;
+  font-size: 0.6rem;
+  line-height: 1.1rem;
+  text-align: center;
+  position: absolute;
+  top:0.5rem;
+  left: 14.6rem;
+  border-radius: 0.25rem;
+}
+.title {
+  line-height: 2.2rem;
+  color: #fff;
+  background-color: #f8c300;
+  text-align: center;
+  font-size: 0.9rem;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+}
+.title a {
+  padding:0rem 0.5rem;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.title img {
+  width: 0.6rem;
+}
+.title2 {
+  height: 2.2rem;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.xianZhuan {
+  position: absolute;
+  top: 0.5rem;
+  left:8rem;
+  color:#675e4c;
+  font-size: 0.9rem;
+}

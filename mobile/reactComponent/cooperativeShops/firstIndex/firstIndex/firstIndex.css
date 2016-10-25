@@ -1,0 +1,110 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.content {
+  width: 100%;
+}
+.textContent{
+  width: 100%;  
+  padding:0rem 0.5rem; 
+}
+.section {
+  width: 100%;
+  border-bottom: 1px solid #b0aeae;
+  padding:1rem 0rem;
+}
+.sellerName {
+  float: left;
+  font-size: 0.9rem;
+  color: #111;
+}
+.nameInput {
+  border:0px;
+  padding-left: 1rem;
+  color: #b6b5b5;
+  font-size: 0.9rem;
+  float: left;
+  width: 70%;
+}
+.shuRu {
+  position: fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.textareaDiv {
+  width: 100%;
+  position: absolute;
+  top:0.5rem;
+  left: 0px;
+  z-index: 2;
+  background-color: #fff;
+  padding-bottom: 0rem;
+}
+.textarea {
+  border-bottom:1px solid #b0aeae;
+  width: 100%;
+  z-index: 2;
+  padding:0.5rem 0.5rem;
+}
+.page {
+  width: 100%;
+  height: 2rem;
+  text-align: right;
+  line-height: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.page i {
+  font-style: normal;
+  color: #f8c300;
+}
+.pageLeft {
+  float: left;
+}
+.textareaBg {
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #dddcdc;
+  opacity: 0.6;
+  z-index: 1;
+}
+.quDing {
+  float: right;
+  border:1px solid #f8c300;
+  padding:0rem 0.5rem;
+  border-radius: 0.2rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #f8c300;
+}
+.weekA {
+  float: right;
+  margin-right: 0.5rem;
+}
+.weekA img {
+  width: 0.6rem;
+}
+.sectionWeek {
+  display: block;
+}
+.nextStep {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #231815;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  color: #f8c300;
+  text-align: center;
+}
+.maxheight {
+  max-height: 3.5rem;
+  overflow: auto;
+}

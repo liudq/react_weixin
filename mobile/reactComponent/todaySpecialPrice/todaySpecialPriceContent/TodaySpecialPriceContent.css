@@ -1,0 +1,56 @@
+.content {
+  width: 100%;
+  padding:0.5rem;
+}
+.priceImgCss {
+  width: 100%;
+  position: relative;
+}
+.imgSanJiao {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -0.5rem;
+}
+.single .imgSanJiao img {
+  width: 1rem;
+  position: absolute;
+  bottom:0px;
+}
+.single {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.single img {
+  width: 100%;
+}
+.goods {
+  width: 100%;
+}
+.singleSwiper {
+  border-right: 1px solid #ededed;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.singleSwiper img {
+  width: 2.45rem;
+  height: 3.425rem;
+}
+.singleSwiper p {
+  font-size: 0.35rem;
+  color: #221816;
+  margin-top: 0.3rem;
+}
+.singleSwiper .oldPrice {
+  text-decoration: line-through;
+  color: #b6b6b6;
+}
+.price10 {
+  border-right: 0px;
+  padding-top: 1.4rem;
+  display: block;
+}
+.price10 img {
+  width: 90%;
+  text-align: center;
+}

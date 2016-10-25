@@ -1,0 +1,88 @@
+.clearfix{
+  composes:clearfix from "../../common/util/util.css";
+}
+a{
+  color: #000;
+}
+i,em{ font-style:normal;}
+b,strong{ 
+  font-weight:normal;
+}
+.mContainer{
+  width: 100%;
+}
+.mContainer i{
+   font-style:normal;
+}
+.container{
+  width:100%;
+  color:#444;
+}
+.orderPayPage{
+  position:relative;
+  width:100%;
+  height:1.8rem;
+  text-align: center;
+  background:#f8c301;  
+  font-size:0.9rem;
+  color:#fff;
+}
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}
+.back{
+  position: absolute;
+  left:0.2rem;top:0.3rem;
+  display: inline-block;
+  width:1.2rem;
+  height:1.2rem;
+  background: url("./BBack.png") no-repeat center center;
+  background-size:0.6rem; 
+}
+.back2{
+  position: absolute;
+  left:0.2rem;top:0.3rem;
+  display: inline-block;
+  width:1.2rem;
+  height:1.2rem;
+  background: url("./back2.png") no-repeat center center;
+  background-size:0.6rem; 
+}
+.orderPayPage p{
+  line-height: 1.8rem;
+}
+.brgColor{
+  width:100%;
+  background: #f6f6f6
+}
+.mRow{
+  width:100%;
+  margin:0 auto;
+  padding:0 0.5rem;
+}
+.load{
+  position: relative;
+  width:100%;
+}
+.load img{
+  position: absolute;
+  top:30%;left:50%;
+  width:100px;
+  height:100px;
+  margin-left:-50px;
+  margin-top:50px;
+}
+.orderPayCon{
+  padding-top:0.4rem;
+}
+.setSubmit{}
+.hide{
+  display:none;
+}
+.show{
+  display:block;
+}
+.hiddenBox{
+  display: none;
+}

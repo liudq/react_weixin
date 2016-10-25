@@ -1,0 +1,374 @@
+.div1 {
+    text-align: center;
+}
+.noShopImg {
+  width: 40%;
+  margin-top: 3.1rem;
+}
+.font {
+    margin-top: 1.9rem;
+    font-size: 0.55rem;
+}
+.shCarA {
+    padding: 0.5rem 1.3rem;
+    background-color: #f8c300;
+    border-radius: 2px;
+    margin-top: 0.6rem;
+    display: inline-block;
+    color: #fff;
+}
+.titleCar {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+    padding: 0.5rem 0rem;
+    background-color: #f8c300;
+    color: #fff;
+}
+.yShTiele {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+    padding: 0.5rem 0rem;
+    text-align: center;
+    background-color: #f8c300;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+}
+.yShTiele2 {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+    padding: 0.5rem 0rem;
+    text-align: center;
+    background-color: #fff;
+}
+.yContent {
+    width: 100%;
+    background-color: #fff;
+}
+.yAllChoice {
+    height: 2.3rem;
+    line-height: 2.3rem;
+    padding: 0px 0.6rem;
+}
+.yAllChick {
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 0.4rem;
+    border: 1px solid #c1c1c1;
+    float: left;
+    margin-top: 0.7rem;
+    margin-right: 0.2rem;
+    font-size: 0.6rem;
+    position: relative;
+}
+.allChoiceCss {
+    width: 100%;
+    font-size: 0.7rem;
+    color: #333333;
+    line-height: 2.2rem;
+    line-height: 2.2rem;
+    background-color: #f7f7f7;
+    padding: 0px 0.6rem;
+}
+.allChoiceButton {
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 0.45rem;
+    border: 1px solid #c0c0c0;
+    background-color: #fff;
+    float: left;
+    margin-top: 0.55rem;
+    margin-right: 0.3rem;
+}
+.allChoiceButtonActive {
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 0.45rem;
+    border: 1px solid #c0c0c0;
+    background-color: #fff;
+    float: left;
+    margin-top: 0.55rem;
+    margin-right: 0.3rem;
+    background-image: url("./choice.png");
+    border: 0px;
+    background-size: 0.9rem 0.9rem;
+    background-repeat: no-repeat; 
+}
+.sellerName {
+    padding: 0px 0.6rem;
+    font-size: 0.65rem;
+    color:#888888;
+    height: 1.85rem;
+    line-height: 1.85rem;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+.sellerName a {
+    display: inline-block;
+    line-height: 1rem;
+    font-size: 0.65rem;
+    color:#fff;
+    margin-left: 0.5rem;
+    background-color: #f8c300;
+    padding:0.1rem 0.2rem;
+}
+.noDis {
+    display: none;
+}
+.yAllChickL {
+    margin-top: 1.3rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 0.4px;
+    border: 1px solid #c1c1c1;
+    float: left;
+    margin-right: 0.2rem;
+    font-size: 0.6rem;
+    position: relative;
+}
+.noChoiceBg {
+    width: 0.79rem;
+    height: 0.79rem;
+    border: 0px;
+    margin-top: 1.8rem;
+    border: 1px solid #c1c1c1;
+    border-radius: 0.395rem;
+}
+.choiceBg {
+    background-image: url("./choice.png");
+    border: 0px;
+    background-size: 0.79rem 0.79rem;
+    background-repeat: no-repeat;
+}
+.yAllChickR {
+    float: left;
+}
+.listDiv {
+    width: 100%;
+    padding: 1.5rem 1rem 1.3rem 0.6rem ;
+    border-top: 1px solid #e5e5e5;
+}
+.list1 {
+    width: 9%;
+    float: left;
+}
+.list2 {
+    width: 19%;
+    float: left;
+    margin-top: 0.9rem;
+    margin-right: 2%;
+}
+.list3 {
+    width: 50%;
+    float: left;
+}
+.list4 {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.clear {
+    clear:both;
+}
+.shListImg {
+    width: 100%;
+    height: 2.5rem;
+}
+body {
+    background-color: #e5e5e5;
+    height: 100%;
+}
+.list3Name{
+    color: #a4a4a4;
+    font-size: 0.5rem;
+    height: 1.6rem;
+}
+.list3Num {
+    margin-top: 1.3rem;
+}
+.list3Num div {
+    float: left;
+}
+.list3NumL {
+    background-color: #dd127b;
+    height: 1.4rem;
+    width: 1.5rem;
+    background-image: url("./jian.png");
+    background-size: 1.5rem 1.4rem;
+}
+.list3NumC {
+    height: 1.4rem;
+    width: 1.5rem;
+    font-size: 0.4rem;
+    text-align: center;
+    color: #df117d;
+    line-height: 1.4rem;
+}
+.list3NumR {
+    background-color: #fff076;
+    height: 1.4rem;
+    width: 1.5rem;
+    background-image: url("./jia.png");
+    background-size: 1.5rem 1.4rem;
+}
+.list4 {
+    font-size: 0.5rem;
+}
+.list4T1 {
+    color: #f8c300;
+}
+.list4T2 {
+    color: #888888;
+    text-decoration: line-through;
+    margin-top: 0.7rem;
+}
+.list4Button {
+    background-color: #f8c300;
+    margin-top: 0.7rem;
+    border: 0px;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 0.3rem 0.5rem;
+}
+.ybottom {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0px;
+}
+.ybottom2 {
+    width: 100%;
+    bottom: 0px;
+    height: 4.7rem;
+}
+.yBottomT {
+    height: 2.2rem;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    line-height: 2.2rem;
+    font-size: 0.6rem;
+    color: #333333;
+    border-bottom: 1px solid #e5e5e5;
+}
+.yBottomT1 {
+    float: left;
+}
+.yBottomT2 {
+    float: right;
+}
+.yBottomB {
+    height: 2.5rem;
+    padding-left: 1.5rem;
+}
+.yBottomB1 {
+    margin-top: 0.6rem;
+    color: #888888;
+    font-size: 0.55rem;
+}
+.yBottomB2 {
+    margin-top: 0.3rem;
+    color: #888888;
+    font-size: 0.55rem;
+}
+.yBottomI {
+    font-style: normal;
+    color: #c60000;
+    font-size: 0.55rem;
+}
+.yBottomBL{
+    float: left;
+}
+.yBottomBR {
+    float: right;
+    height: 2.5rem;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    line-height: 2.5rem;
+    background-color: #f8c300;
+    color: #fff;
+}
+.addAlert {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.1;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.alertContent {
+    position: fixed;
+    height: 7rem;
+    width: 13.7rem;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 13%;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    z-index: 5;
+    padding: 0.6rem;
+}
+.alertP {
+    font-size: 0.75rem;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 1rem;
+    color: #221816;
+}
+.alertButton {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.alertButtonL {
+    float: left;
+    padding: 0.6rem 1.3rem;
+    font-size: 0.7rem;
+    background-color: #dd127b;
+    border-radius: 2px;
+    color: #fff;
+}
+.alertButtonR {
+    float: right;
+    padding: 0.6rem 1.3rem;
+    font-size: 0.7rem;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #888888;
+}
+.addAlertD {
+    display: none;
+}
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}
+.backCss {
+    position: absolute;
+    left: 0px;
+    padding:0px 0.5rem;
+}
+.backCss img {
+    height: 1.05rem;
+    width: 0.6rem;
+}
+/* 加活动改造开始 */
+.carActivity {
+  width: 100%;
+}
+
+
+
+
+/* 加活动改造结束 */
+
+.titel12 {
+  background-color: #000;
+  color: #f8c300;
+}

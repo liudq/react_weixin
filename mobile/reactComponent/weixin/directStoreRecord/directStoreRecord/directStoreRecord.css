@@ -1,0 +1,96 @@
+.clearfix{
+  composes:clearfix from "../../../common/util/util.css";
+}
+.pay {
+  width: 100%;
+  font-size: 0.8rem;
+  padding:0.5rem;
+}
+.section1 {
+  width: 100%;
+  border:1px solid #c2c1c1;
+  padding:0.5rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+.section1 input {
+  font-size: 0.7rem;
+  height: 1rem;
+  width: 5rem;
+}
+.section2 {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.titleTable {
+  width: 100%;
+  border:1px solid #c2c1c1;
+  margin-top: 0.5rem;
+  border-right:0px;
+}
+.titleTable li {
+  float: left;
+  width: 25%;
+  border-right: 1px solid #c2c1c1;
+  text-align: center;
+  font-size: 0.6rem;
+  padding:0.4rem 0rem;
+}
+.contentTable {
+  width: 100%;
+  border:1px solid #c2c1c1;
+  border-top:0px;
+  border-right: 0px;
+}
+.contentTable li {
+  float: left;
+  width: 25%;
+  border-right: 1px solid #c2c1c1;
+  text-align: center;
+  font-size: 0.6rem;
+  padding:0.4rem 0rem;
+}
+.single {
+  width: 100%;
+  border-bottom: 1px solid #c2c1c1;
+  padding:0rem 0.5rem;
+}
+.sig1 {
+  width: 100%;
+}
+.phone {
+  float: left;
+}
+.jine {
+  float: right;
+  color: #c60000;
+}
+.sig2 {
+  width: 100%;
+  margin-top: 0.3rem;
+}
+.time {
+  width: 100%;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.more {
+  width: 100%;
+  background-color: #c2c1c1;
+  text-align: center;
+  line-height: 2rem;
+}
+.noData {
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.inquiry {
+  border:1px solid #c2c1c1;
+  line-height: 0.5rem;
+  text-align: center;
+  padding:0rem 0.3rem;
+  margin-left: 0.2rem;
+  border-radius: 0.1rem;
+  font-size: 0.8rem;
+}

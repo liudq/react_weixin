@@ -1,0 +1,57 @@
+html {
+  width:100%;
+  height:100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#mmhContainer {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.trailerCss {
+  width: 100%;
+  height: 100%;
+  background-image: url("./trailer.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title {
+  width: 100%;
+  line-height: 2.2rem;
+  background-color: #f8c300;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+.title a {
+  display: inline-block;
+  color: #fff;
+  float: left;
+  padding:0rem 0.5rem;
+  margin-top: 0.5rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.backImgCss {
+  float: left;
+  height: 1.05rem;
+  width: 0.6rem;
+}
+.clear {
+  clear: both;
+}
+.trailerImgCss {
+  width: 100%;
+}
+.title12 {
+  background-color: #000;
+  color: #f8c300;
+}
